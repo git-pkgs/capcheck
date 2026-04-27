@@ -22,6 +22,9 @@ func TestDefault(t *testing.T) {
 	if len(c.Ignore) != 0 {
 		t.Errorf("Ignore = %v, want empty", c.Ignore)
 	}
+	if c.GOOS != "linux" || c.GOARCH != "amd64" {
+		t.Errorf("GOOS/GOARCH = %q/%q, want linux/amd64", c.GOOS, c.GOARCH)
+	}
 }
 
 func TestLoadMissingFile(t *testing.T) {
@@ -111,6 +114,8 @@ func TestWriteLoadRoundTrip(t *testing.T) {
 		Granularity:  "package",
 		Timeout:      Duration(90 * time.Second),
 		BaselinePath: "x.lock.json",
+		GOOS:         "darwin",
+		GOARCH:       "arm64",
 		Ignore:       []string{"FILES"},
 	}
 	if err := Write(path, in); err != nil {

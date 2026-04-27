@@ -1,5 +1,7 @@
 {
   "granularity": "package",
   "timeout": "5m0s",
-  "baseline": "capcheck.lock.json"
+  "baseline": "capcheck.lock.json",
+  "goos": "linux",
+  "goarch": "amd64"
 }

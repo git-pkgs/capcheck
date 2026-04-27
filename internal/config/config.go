@@ -54,6 +54,8 @@ func Default() Config {
 		Granularity:  "package",
 		Timeout:      Duration(defaultTimeout),
 		BaselinePath: DefaultBaselinePath,
+		GOOS:         "linux",
+		GOARCH:       "amd64",
 	}
 }
 

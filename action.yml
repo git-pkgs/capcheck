@@ -22,6 +22,14 @@ inputs:
     description: Package patterns to analyse
     required: false
     default: ./...
+  config:
+    description: Path to capcheck.json
+    required: false
+    default: ""
+  baseline:
+    description: Path to capcheck.lock.json (overrides config)
+    required: false
+    default: ""
   strict:
     description: Fail on removed capabilities as well as added
     required: false
@@ -49,6 +57,12 @@ runs:
       run: |
         set +e
         args=(check --format github)
+        if [ -n "${{ inputs.config }}" ]; then
+          args+=(--config "${{ inputs.config }}")
+        fi
+        if [ -n "${{ inputs.baseline }}" ]; then
+          args+=(--baseline "${{ inputs.baseline }}")
+        fi
         if [ "${{ inputs.strict }}" = "true" ]; then
           args+=(--strict)
         fi
@@ -65,11 +79,18 @@ runs:
       shell: bash
       working-directory: ${{ inputs.working-directory }}
       run: |
+        args=(check)
+        if [ -n "${{ inputs.config }}" ]; then
+          args+=(--config "${{ inputs.config }}")
+        fi
+        if [ -n "${{ inputs.baseline }}" ]; then
+          args+=(--baseline "${{ inputs.baseline }}")
+        fi
         {
           echo '### capcheck'
           echo
           echo '```'
-          capcheck check ${{ inputs.packages }} || true
+          capcheck "${args[@]}" ${{ inputs.packages }} || true
           echo '```'
         } >> "$GITHUB_STEP_SUMMARY"
 

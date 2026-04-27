@@ -93,7 +93,9 @@ The full capability list is documented in [capslock's docs](https://github.com/g
 
 `granularity` controls what counts as a change. At `package` (the default) you're told when a package gains a capability it didn't have. At `function` you're told when a new entry point reaches an existing capability, which is more precise but produces a much larger and more volatile lock file.
 
-Other keys: `build_tags`, `goos`, `goarch` are passed through to package loading; `capability_map` points to a custom capslock classifier file if you want to extend the stdlib mappings; `omit_paths` drops the example call path from each lock entry, which shrinks `capcheck.lock.json` considerably at the cost of less helpful failure output.
+`goos` and `goarch` pin the platform the analysis runs as. capslock's results depend on which stdlib files are compiled in, so a lock file generated on macOS will not match one generated on Linux. `init` writes `linux`/`amd64` by default since that is what most CI runs on; change it if your CI runs elsewhere, but pick one and stick with it.
+
+Other keys: `build_tags` is passed through to package loading; `capability_map` points to a custom capslock classifier file if you want to extend the stdlib mappings; `omit_paths` drops the example call path from each lock entry, which shrinks `capcheck.lock.json` considerably at the cost of less helpful failure output.
 
 ## GitHub Action
 
@@ -105,7 +107,21 @@ Other keys: `build_tags`, `goos`, `goarch` are passed through to package loading
 
 The action installs capcheck, runs `check --format github`, and turns each new capability into an error annotation anchored at the first line of user code in the call path. On failure it also writes the human-readable diff to the job summary.
 
-Inputs: `go-version` (default `stable`), `capcheck-version` (default `latest`), `working-directory`, `packages`, `strict`, `ignore`.
+Inputs: `go-version` (default `stable`), `capcheck-version` (default `latest`), `working-directory`, `packages`, `config`, `baseline`, `strict`, `ignore`.
+
+If you need to check multiple platforms, keep one config per platform and run the action in a matrix:
+
+```yaml
+strategy:
+  matrix:
+    goos: [linux, darwin, windows]
+steps:
+  - uses: git-pkgs/capcheck@v1
+    with:
+      config: capcheck.${{ matrix.goos }}.json
+```
+
+where each `capcheck.<goos>.json` sets its own `goos` and `baseline`.
 
 ## Exit codes
 
