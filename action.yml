@@ -1,5 +1,5 @@
-name: capcheck
-description: Gate Go builds on capability changes using google/capslock
+name: go-capcheck
+description: Fail CI when Go code or dependencies gain new privileged operations, using google/capslock
 author: git-pkgs
 branding:
   icon: lock
