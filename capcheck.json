@@ -1,0 +1,5 @@
+{
+  "granularity": "package",
+  "timeout": "5m0s",
+  "baseline": "capcheck.lock.json"
+}

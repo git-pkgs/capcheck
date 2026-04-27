@@ -1,0 +1,4218 @@
+{
+  "capabilityInfo": [
+    {
+      "packageName": "main",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/analyzer.init github.com/fatih/color.init github.com/fatih/color.stdoutIsTerminal (*os.File).Fd",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/analyzer.init",
+          "package": "github.com/google/capslock/analyzer"
+        },
+        {
+          "name": "github.com/fatih/color.init",
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/fatih/color.stdoutIsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "22",
+            "column": "78"
+          },
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "(*os.File).Fd",
+          "site": {
+            "filename": "color.go",
+            "line": "49",
+            "column": "39"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New (*github.com/spf13/pflag.FlagSet).BoolVar (*github.com/spf13/pflag.FlagSet).BoolVarP (*github.com/spf13/pflag.FlagSet).VarPF (*github.com/spf13/pflag.stringToStringValue).String (*encoding/csv.Writer).Flush (*bufio.Writer).Flush (*os.File).Write",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.FlagSet).BoolVar",
+          "site": {
+            "filename": "app.go",
+            "line": "95",
+            "column": "12"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.FlagSet).BoolVarP",
+          "site": {
+            "filename": "bool.go",
+            "line": "50",
+            "column": "12"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.FlagSet).VarPF",
+          "site": {
+            "filename": "bool.go",
+            "line": "55",
+            "column": "17"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.stringToStringValue).String",
+          "site": {
+            "filename": "flag.go",
+            "line": "859",
+            "column": "26"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*encoding/csv.Writer).Flush",
+          "site": {
+            "filename": "string_to_string.go",
+            "line": "83",
+            "column": "9"
+          },
+          "package": "encoding/csv"
+        },
+        {
+          "name": "(*bufio.Writer).Flush",
+          "site": {
+            "filename": "writer.go",
+            "line": "126",
+            "column": "11"
+          },
+          "package": "bufio"
+        },
+        {
+          "name": "(*os.File).Write",
+          "site": {
+            "filename": "bufio.go",
+            "line": "642",
+            "column": "22"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse github.com/git-pkgs/capcheck/internal/analyse.buildClassifier os.Open",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.buildClassifier",
+          "site": {
+            "filename": "analyse.go",
+            "line": "76",
+            "column": "36"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "os.Open",
+          "site": {
+            "filename": "analyse.go",
+            "line": "97",
+            "column": "19"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "baseline",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read os.ReadFile",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+        },
+        {
+          "name": "os.ReadFile",
+          "site": {
+            "filename": "baseline.go",
+            "line": "19",
+            "column": "23"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "config",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load os.ReadFile",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/config.Load",
+          "package": "github.com/git-pkgs/capcheck/internal/config"
+        },
+        {
+          "name": "os.ReadFile",
+          "site": {
+            "filename": "config.go",
+            "line": "62",
+            "column": "23"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/config",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "diff",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).resolveExtensions (*google.golang.org/protobuf/internal/filedesc.File).resolveEnumDependency (*google.golang.org/protobuf/internal/filetype.resolverByIndex).FindEnumByIndex (google.golang.org/protobuf/internal/impl.Export).EnumDescriptorOf google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc google.golang.org/protobuf/internal/impl.legacyLoadFileDesc io.ReadAll (*os.File).Read",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.Compare",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.index",
+          "site": {
+            "filename": "diff.go",
+            "line": "50",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.toEntry",
+          "site": {
+            "filename": "diff.go",
+            "line": "86",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "(github.com/google/capslock/proto.Capability).String",
+          "site": {
+            "filename": "diff.go",
+            "line": "104",
+            "column": "53"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumStringOf",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "95",
+            "column": "33"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).Values",
+          "site": {
+            "filename": "api_export.go",
+            "line": "75",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "225",
+            "column": "21"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "237",
+            "column": "27"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce",
+          "site": {
+            "filename": "desc.go",
+            "line": "164",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "172",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).resolveExtensions",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "22",
+            "column": "22"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).resolveEnumDependency",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "66",
+            "column": "43"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filetype.resolverByIndex).FindEnumByIndex",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "98",
+            "column": "30"
+          },
+          "package": "google.golang.org/protobuf/internal/filetype"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumDescriptorOf",
+          "site": {
+            "filename": "build.go",
+            "line": "286",
+            "column": "41"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc",
+          "site": {
+            "filename": "api_export.go",
+            "line": "55",
+            "column": "28"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.legacyLoadFileDesc",
+          "site": {
+            "filename": "legacy_enum.go",
+            "line": "136",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "io.ReadAll",
+          "site": {
+            "filename": "legacy_file.go",
+            "line": "54",
+            "column": "23"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*os.File).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "722",
+            "column": "19"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/diff",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "report",
+      "capabilityName": "FILES",
+      "capability": "CAPABILITY_FILES",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*os.File).Write",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*os.File).Write",
+          "site": {
+            "filename": "stream.go",
+            "line": "233",
+            "column": "25"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/report",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "NETWORK",
+      "capability": "CAPABILITY_NETWORK",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (*google.golang.org/protobuf/reflect/protoregistry.Types).RegisterExtension (*google.golang.org/protobuf/internal/impl.ExtensionInfo).TypeDescriptor (*google.golang.org/protobuf/internal/impl.ExtensionInfo).lazyInitSlow (*google.golang.org/protobuf/internal/impl.ExtensionInfo).initFromLegacy google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc google.golang.org/protobuf/internal/impl.legacyLoadFileDesc io.ReadAll (*compress/gzip.Reader).Read io.ReadFull io.ReadAtLeast (*net.IPConn).Read (*net.conn).Read",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init#1",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "github.com/google/capslock/proto.file_capability_proto_init",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "992",
+            "column": "41"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/filetype.Builder).Build",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "1121",
+            "column": "9"
+          },
+          "package": "google.golang.org/protobuf/internal/filetype"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/reflect/protoregistry.Types).RegisterExtension",
+          "site": {
+            "filename": "build.go",
+            "line": "236",
+            "column": "46"
+          },
+          "package": "google.golang.org/protobuf/reflect/protoregistry"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.ExtensionInfo).TypeDescriptor",
+          "site": {
+            "filename": "registry.go",
+            "line": "542",
+            "column": "25"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.ExtensionInfo).lazyInitSlow",
+          "site": {
+            "filename": "extension.go",
+            "line": "112",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.ExtensionInfo).initFromLegacy",
+          "site": {
+            "filename": "extension.go",
+            "line": "134",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc",
+          "site": {
+            "filename": "legacy_extension.go",
+            "line": "100",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.legacyLoadFileDesc",
+          "site": {
+            "filename": "legacy_enum.go",
+            "line": "136",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "io.ReadAll",
+          "site": {
+            "filename": "legacy_file.go",
+            "line": "54",
+            "column": "23"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*compress/gzip.Reader).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "722",
+            "column": "19"
+          },
+          "package": "compress/gzip"
+        },
+        {
+          "name": "io.ReadFull",
+          "site": {
+            "filename": "gunzip.go",
+            "line": "261",
+            "column": "27"
+          },
+          "package": "io"
+        },
+        {
+          "name": "io.ReadAtLeast",
+          "site": {
+            "filename": "io.go",
+            "line": "354",
+            "column": "20"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*net.IPConn).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "335",
+            "column": "19"
+          },
+          "package": "net"
+        },
+        {
+          "name": "(*net.conn).Read",
+          "package": "net"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "NETWORK",
+      "capability": "CAPABILITY_NETWORK",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/analyse.Run context.WithCancel$1 (*context.cancelCtx).cancel (*context.afterFuncCtx).cancel (*context.afterFuncCtx).cancel$1 (*net.netFD).connect$1",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "83",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "site": {
+            "filename": "app.go",
+            "line": "164",
+            "column": "26"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "context.WithCancel$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "26",
+            "column": "3"
+          },
+          "package": "context"
+        },
+        {
+          "name": "(*context.cancelCtx).cancel",
+          "site": {
+            "filename": "context.go",
+            "line": "242",
+            "column": "29"
+          },
+          "package": "context"
+        },
+        {
+          "name": "(*context.afterFuncCtx).cancel",
+          "site": {
+            "filename": "context.go",
+            "line": "571",
+            "column": "15"
+          },
+          "package": "context"
+        },
+        {
+          "name": "(*context.afterFuncCtx).cancel$1",
+          "package": "context"
+        },
+        {
+          "name": "(*net.netFD).connect$1",
+          "site": {
+            "filename": "context.go",
+            "line": "358",
+            "column": "3"
+          },
+          "package": "net"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "NETWORK",
+      "capability": "CAPABILITY_NETWORK",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run context.WithCancel$1 (*context.cancelCtx).cancel (*context.afterFuncCtx).cancel (*context.afterFuncCtx).cancel$1 (*net.netFD).connect$1",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "context.WithCancel$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "26",
+            "column": "3"
+          },
+          "package": "context"
+        },
+        {
+          "name": "(*context.cancelCtx).cancel",
+          "site": {
+            "filename": "context.go",
+            "line": "242",
+            "column": "29"
+          },
+          "package": "context"
+        },
+        {
+          "name": "(*context.afterFuncCtx).cancel",
+          "site": {
+            "filename": "context.go",
+            "line": "571",
+            "column": "15"
+          },
+          "package": "context"
+        },
+        {
+          "name": "(*context.afterFuncCtx).cancel$1",
+          "package": "context"
+        },
+        {
+          "name": "(*net.netFD).connect$1",
+          "site": {
+            "filename": "context.go",
+            "line": "358",
+            "column": "3"
+          },
+          "package": "net"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "baseline",
+      "capabilityName": "NETWORK",
+      "capability": "CAPABILITY_NETWORK",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal (google.golang.org/protobuf/encoding/protojson.decoder).unmarshalMessage (google.golang.org/protobuf/internal/impl.aberrantMessage).Descriptor google.golang.org/protobuf/internal/impl.LegacyLoadMessageDesc google.golang.org/protobuf/internal/impl.legacyLoadMessageDesc google.golang.org/protobuf/internal/impl.legacyLoadFileDesc io.ReadAll (*compress/gzip.Reader).Read io.ReadFull io.ReadAtLeast (*net.IPConn).Read (*net.conn).Read",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+        },
+        {
+          "name": "google.golang.org/protobuf/encoding/protojson.Unmarshal",
+          "site": {
+            "filename": "baseline.go",
+            "line": "24",
+            "column": "31"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "30",
+            "column": "37"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "63",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.decoder).unmarshalMessage",
+          "site": {
+            "filename": "decode.go",
+            "line": "80",
+            "column": "32"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.aberrantMessage).Descriptor",
+          "site": {
+            "filename": "decode.go",
+            "line": "129",
+            "column": "55"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.LegacyLoadMessageDesc",
+          "site": {
+            "filename": "legacy_message.go",
+            "line": "511",
+            "column": "30"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.legacyLoadMessageDesc",
+          "site": {
+            "filename": "legacy_message.go",
+            "line": "91",
+            "column": "30"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.legacyLoadFileDesc",
+          "site": {
+            "filename": "legacy_message.go",
+            "line": "142",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "io.ReadAll",
+          "site": {
+            "filename": "legacy_file.go",
+            "line": "54",
+            "column": "23"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*compress/gzip.Reader).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "722",
+            "column": "19"
+          },
+          "package": "compress/gzip"
+        },
+        {
+          "name": "io.ReadFull",
+          "site": {
+            "filename": "gunzip.go",
+            "line": "261",
+            "column": "27"
+          },
+          "package": "io"
+        },
+        {
+          "name": "io.ReadAtLeast",
+          "site": {
+            "filename": "io.go",
+            "line": "354",
+            "column": "20"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*net.IPConn).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "335",
+            "column": "19"
+          },
+          "package": "net"
+        },
+        {
+          "name": "(*net.conn).Read",
+          "package": "net"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "diff",
+      "capabilityName": "NETWORK",
+      "capability": "CAPABILITY_NETWORK",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).resolveExtensions (*google.golang.org/protobuf/internal/filedesc.File).resolveEnumDependency (*google.golang.org/protobuf/internal/filetype.resolverByIndex).FindEnumByIndex (google.golang.org/protobuf/internal/impl.Export).EnumDescriptorOf google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc google.golang.org/protobuf/internal/impl.legacyLoadFileDesc io.ReadAll (*compress/gzip.Reader).Read io.ReadFull io.ReadAtLeast (*net.IPConn).Read (*net.conn).Read",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.Compare",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.index",
+          "site": {
+            "filename": "diff.go",
+            "line": "50",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.toEntry",
+          "site": {
+            "filename": "diff.go",
+            "line": "86",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "(github.com/google/capslock/proto.Capability).String",
+          "site": {
+            "filename": "diff.go",
+            "line": "104",
+            "column": "53"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumStringOf",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "95",
+            "column": "33"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).Values",
+          "site": {
+            "filename": "api_export.go",
+            "line": "75",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "225",
+            "column": "21"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "237",
+            "column": "27"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce",
+          "site": {
+            "filename": "desc.go",
+            "line": "164",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "172",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).resolveExtensions",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "22",
+            "column": "22"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).resolveEnumDependency",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "66",
+            "column": "43"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filetype.resolverByIndex).FindEnumByIndex",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "98",
+            "column": "30"
+          },
+          "package": "google.golang.org/protobuf/internal/filetype"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumDescriptorOf",
+          "site": {
+            "filename": "build.go",
+            "line": "286",
+            "column": "41"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc",
+          "site": {
+            "filename": "api_export.go",
+            "line": "55",
+            "column": "28"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.legacyLoadFileDesc",
+          "site": {
+            "filename": "legacy_enum.go",
+            "line": "136",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "io.ReadAll",
+          "site": {
+            "filename": "legacy_file.go",
+            "line": "54",
+            "column": "23"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*compress/gzip.Reader).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "722",
+            "column": "19"
+          },
+          "package": "compress/gzip"
+        },
+        {
+          "name": "io.ReadFull",
+          "site": {
+            "filename": "gunzip.go",
+            "line": "261",
+            "column": "27"
+          },
+          "package": "io"
+        },
+        {
+          "name": "io.ReadAtLeast",
+          "site": {
+            "filename": "io.go",
+            "line": "354",
+            "column": "20"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*net.IPConn).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "335",
+            "column": "19"
+          },
+          "package": "net"
+        },
+        {
+          "name": "(*net.conn).Read",
+          "package": "net"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/diff",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "report",
+      "capabilityName": "NETWORK",
+      "capability": "CAPABILITY_NETWORK",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.init github.com/git-pkgs/capcheck/internal/diff.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (*google.golang.org/protobuf/reflect/protoregistry.Types).RegisterExtension (*google.golang.org/protobuf/internal/impl.ExtensionInfo).TypeDescriptor (*google.golang.org/protobuf/internal/impl.ExtensionInfo).lazyInitSlow (*google.golang.org/protobuf/internal/impl.ExtensionInfo).initFromLegacy google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc google.golang.org/protobuf/internal/impl.legacyLoadFileDesc io.ReadAll (*compress/gzip.Reader).Read io.ReadFull io.ReadAtLeast (*net.IPConn).Read (*net.conn).Read",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.init",
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.init",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init#1",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "github.com/google/capslock/proto.file_capability_proto_init",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "992",
+            "column": "41"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/filetype.Builder).Build",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "1121",
+            "column": "9"
+          },
+          "package": "google.golang.org/protobuf/internal/filetype"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/reflect/protoregistry.Types).RegisterExtension",
+          "site": {
+            "filename": "build.go",
+            "line": "236",
+            "column": "46"
+          },
+          "package": "google.golang.org/protobuf/reflect/protoregistry"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.ExtensionInfo).TypeDescriptor",
+          "site": {
+            "filename": "registry.go",
+            "line": "542",
+            "column": "25"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.ExtensionInfo).lazyInitSlow",
+          "site": {
+            "filename": "extension.go",
+            "line": "112",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.ExtensionInfo).initFromLegacy",
+          "site": {
+            "filename": "extension.go",
+            "line": "134",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.LegacyLoadEnumDesc",
+          "site": {
+            "filename": "legacy_extension.go",
+            "line": "100",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.legacyLoadFileDesc",
+          "site": {
+            "filename": "legacy_enum.go",
+            "line": "136",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "io.ReadAll",
+          "site": {
+            "filename": "legacy_file.go",
+            "line": "54",
+            "column": "23"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*compress/gzip.Reader).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "722",
+            "column": "19"
+          },
+          "package": "compress/gzip"
+        },
+        {
+          "name": "io.ReadFull",
+          "site": {
+            "filename": "gunzip.go",
+            "line": "261",
+            "column": "27"
+          },
+          "package": "io"
+        },
+        {
+          "name": "io.ReadAtLeast",
+          "site": {
+            "filename": "io.go",
+            "line": "354",
+            "column": "20"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*net.IPConn).Read",
+          "site": {
+            "filename": "io.go",
+            "line": "335",
+            "column": "19"
+          },
+          "package": "net"
+        },
+        {
+          "name": "(*net.conn).Read",
+          "package": "net"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/report",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "READ_SYSTEM_STATE",
+      "capability": "CAPABILITY_READ_SYSTEM_STATE",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init golang.org/x/tools/go/packages.init os.Getenv",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.init",
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "os.Getenv",
+          "site": {
+            "filename": "golist.go",
+            "line": "29",
+            "column": "43"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "READ_SYSTEM_STATE",
+      "capability": "CAPABILITY_READ_SYSTEM_STATE",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse os.Environ",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "83",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "site": {
+            "filename": "app.go",
+            "line": "164",
+            "column": "26"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "os.Environ",
+          "site": {
+            "filename": "analyse.go",
+            "line": "50",
+            "column": "20"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "READ_SYSTEM_STATE",
+      "capability": "CAPABILITY_READ_SYSTEM_STATE",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse os.Environ",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "os.Environ",
+          "site": {
+            "filename": "analyse.go",
+            "line": "50",
+            "column": "20"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "baseline",
+      "capabilityName": "READ_SYSTEM_STATE",
+      "capability": "CAPABILITY_READ_SYSTEM_STATE",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.init github.com/google/capslock/proto.init google.golang.org/protobuf/runtime/protoimpl.init google.golang.org/protobuf/internal/impl.init google.golang.org/protobuf/internal/impl.init$1 os.Getenv",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/baseline.init",
+          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "google.golang.org/protobuf/runtime/protoimpl.init",
+          "package": "google.golang.org/protobuf/runtime/protoimpl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init",
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init$1",
+          "site": {
+            "filename": "lazy.go",
+            "line": "28",
+            "column": "2"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "os.Getenv",
+          "site": {
+            "filename": "lazy.go",
+            "line": "24",
+            "column": "14"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "diff",
+      "capabilityName": "READ_SYSTEM_STATE",
+      "capability": "CAPABILITY_READ_SYSTEM_STATE",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.init github.com/google/capslock/proto.init google.golang.org/protobuf/runtime/protoimpl.init google.golang.org/protobuf/internal/impl.init google.golang.org/protobuf/internal/impl.init$1 os.Getenv",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.init",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "google.golang.org/protobuf/runtime/protoimpl.init",
+          "package": "google.golang.org/protobuf/runtime/protoimpl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init",
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init$1",
+          "site": {
+            "filename": "lazy.go",
+            "line": "28",
+            "column": "2"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "os.Getenv",
+          "site": {
+            "filename": "lazy.go",
+            "line": "24",
+            "column": "14"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/diff",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "report",
+      "capabilityName": "READ_SYSTEM_STATE",
+      "capability": "CAPABILITY_READ_SYSTEM_STATE",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.init github.com/git-pkgs/capcheck/internal/diff.init github.com/google/capslock/proto.init google.golang.org/protobuf/runtime/protoimpl.init google.golang.org/protobuf/internal/impl.init google.golang.org/protobuf/internal/impl.init$1 os.Getenv",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.init",
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.init",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "google.golang.org/protobuf/runtime/protoimpl.init",
+          "package": "google.golang.org/protobuf/runtime/protoimpl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init",
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init$1",
+          "site": {
+            "filename": "lazy.go",
+            "line": "28",
+            "column": "2"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "os.Getenv",
+          "site": {
+            "filename": "lazy.go",
+            "line": "24",
+            "column": "14"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/report",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "OPERATING_SYSTEM",
+      "capability": "CAPABILITY_OPERATING_SYSTEM",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/analyzer.init golang.org/x/tools/go/ssa.init golang.org/x/tools/go/ssa.NewConst golang.org/x/tools/go/ssa.soleTypeKind golang.org/x/tools/go/ssa.underIs golang.org/x/tools/go/ssa.typeset golang.org/x/tools/go/ssa.termListOf golang.org/x/tools/internal/typeparams.NormalTerms golang.org/x/tools/internal/typeparams.InterfaceTermSet golang.org/x/tools/internal/typeparams.computeTermSet golang.org/x/tools/internal/typeparams.computeTermSetInternal (*go/types.Interface).EmbeddedTypes$1 (*golang.org/x/tools/internal/gcimporter.exportWriter).typeList$1 (*golang.org/x/tools/internal/gcimporter.exportWriter).typ (*golang.org/x/tools/internal/gcimporter.iexporter).typOff (*golang.org/x/tools/internal/gcimporter.exportWriter).flush io.Copy io.copyBuffer (*os.File).WriteTo",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/analyzer.init",
+          "package": "github.com/google/capslock/analyzer"
+        },
+        {
+          "name": "golang.org/x/tools/go/ssa.init",
+          "package": "golang.org/x/tools/go/ssa"
+        },
+        {
+          "name": "golang.org/x/tools/go/ssa.NewConst",
+          "site": {
+            "filename": "builder.go",
+            "line": "115",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/go/ssa"
+        },
+        {
+          "name": "golang.org/x/tools/go/ssa.soleTypeKind",
+          "site": {
+            "filename": "const.go",
+            "line": "24",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/go/ssa"
+        },
+        {
+          "name": "golang.org/x/tools/go/ssa.underIs",
+          "site": {
+            "filename": "const.go",
+            "line": "48",
+            "column": "9"
+          },
+          "package": "golang.org/x/tools/go/ssa"
+        },
+        {
+          "name": "golang.org/x/tools/go/ssa.typeset",
+          "site": {
+            "filename": "typeset.go",
+            "line": "99",
+            "column": "9"
+          },
+          "package": "golang.org/x/tools/go/ssa"
+        },
+        {
+          "name": "golang.org/x/tools/go/ssa.termListOf",
+          "site": {
+            "filename": "typeset.go",
+            "line": "26",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/go/ssa"
+        },
+        {
+          "name": "golang.org/x/tools/internal/typeparams.NormalTerms",
+          "site": {
+            "filename": "typeset.go",
+            "line": "51",
+            "column": "38"
+          },
+          "package": "golang.org/x/tools/internal/typeparams"
+        },
+        {
+          "name": "golang.org/x/tools/internal/typeparams.InterfaceTermSet",
+          "site": {
+            "filename": "coretype.go",
+            "line": "124",
+            "column": "26"
+          },
+          "package": "golang.org/x/tools/internal/typeparams"
+        },
+        {
+          "name": "golang.org/x/tools/internal/typeparams.computeTermSet",
+          "site": {
+            "filename": "normalize.go",
+            "line": "82",
+            "column": "23"
+          },
+          "package": "golang.org/x/tools/internal/typeparams"
+        },
+        {
+          "name": "golang.org/x/tools/internal/typeparams.computeTermSetInternal",
+          "site": {
+            "filename": "normalize.go",
+            "line": "96",
+            "column": "37"
+          },
+          "package": "golang.org/x/tools/internal/typeparams"
+        },
+        {
+          "name": "(*go/types.Interface).EmbeddedTypes$1",
+          "package": "go/types"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gcimporter.exportWriter).typeList$1",
+          "site": {
+            "filename": "iter.go",
+            "line": "50",
+            "column": "13"
+          },
+          "package": "golang.org/x/tools/internal/gcimporter"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gcimporter.exportWriter).typ",
+          "site": {
+            "filename": "iexport.go",
+            "line": "1235",
+            "column": "8"
+          },
+          "package": "golang.org/x/tools/internal/gcimporter"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gcimporter.iexporter).typOff",
+          "site": {
+            "filename": "iexport.go",
+            "line": "973",
+            "column": "26"
+          },
+          "package": "golang.org/x/tools/internal/gcimporter"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gcimporter.exportWriter).flush",
+          "site": {
+            "filename": "iexport.go",
+            "line": "991",
+            "column": "34"
+          },
+          "package": "golang.org/x/tools/internal/gcimporter"
+        },
+        {
+          "name": "io.Copy",
+          "site": {
+            "filename": "iexport.go",
+            "line": "982",
+            "column": "9"
+          },
+          "package": "io"
+        },
+        {
+          "name": "io.copyBuffer",
+          "site": {
+            "filename": "io.go",
+            "line": "388",
+            "column": "19"
+          },
+          "package": "io"
+        },
+        {
+          "name": "(*os.File).WriteTo",
+          "site": {
+            "filename": "io.go",
+            "line": "411",
+            "column": "20"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "OPERATING_SYSTEM",
+      "capability": "CAPABILITY_OPERATING_SYSTEM",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/go/packages.callDriverOnChunks golang.org/x/tools/go/packages.defaultDriver$1 golang.org/x/tools/go/packages.goListDriver golang.org/x/tools/go/packages.goListDriver$1 golang.org/x/tools/go/packages.getSizesForArgs (*golang.org/x/tools/internal/gocommand.Runner).RunRaw (*golang.org/x/tools/internal/gocommand.Runner).runConcurrent (*golang.org/x/tools/internal/gocommand.Invocation).runWithFriendlyError (*golang.org/x/tools/internal/gocommand.Invocation).run golang.org/x/tools/internal/gocommand.runCmdContext (*os.Process).Kill",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "83",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "site": {
+            "filename": "app.go",
+            "line": "164",
+            "column": "26"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.callDriverOnChunks",
+          "site": {
+            "filename": "packages.go",
+            "line": "318",
+            "column": "38"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver$1",
+          "site": {
+            "filename": "packages.go",
+            "line": "379",
+            "column": "16"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.goListDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "339",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.goListDriver$1",
+          "site": {
+            "filename": "golist.go",
+            "line": "190",
+            "column": "3"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.getSizesForArgs",
+          "site": {
+            "filename": "golist.go",
+            "line": "191",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Runner).RunRaw",
+          "site": {
+            "filename": "golist.go",
+            "line": "1083",
+            "column": "59"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Runner).runConcurrent",
+          "site": {
+            "filename": "invoke.go",
+            "line": "98",
+            "column": "58"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Invocation).runWithFriendlyError",
+          "site": {
+            "filename": "invoke.go",
+            "line": "124",
+            "column": "46"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Invocation).run",
+          "site": {
+            "filename": "invoke.go",
+            "line": "187",
+            "column": "18"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "golang.org/x/tools/internal/gocommand.runCmdContext",
+          "site": {
+            "filename": "invoke.go",
+            "line": "285",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*os.Process).Kill",
+          "site": {
+            "filename": "invoke.go",
+            "line": "418",
+            "column": "28"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "OPERATING_SYSTEM",
+      "capability": "CAPABILITY_OPERATING_SYSTEM",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/go/packages.callDriverOnChunks golang.org/x/tools/go/packages.defaultDriver$1 golang.org/x/tools/go/packages.goListDriver golang.org/x/tools/go/packages.goListDriver$1 golang.org/x/tools/go/packages.getSizesForArgs (*golang.org/x/tools/internal/gocommand.Runner).RunRaw (*golang.org/x/tools/internal/gocommand.Runner).runConcurrent (*golang.org/x/tools/internal/gocommand.Invocation).runWithFriendlyError (*golang.org/x/tools/internal/gocommand.Invocation).run golang.org/x/tools/internal/gocommand.runCmdContext (*os.Process).Kill",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.callDriverOnChunks",
+          "site": {
+            "filename": "packages.go",
+            "line": "318",
+            "column": "38"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver$1",
+          "site": {
+            "filename": "packages.go",
+            "line": "379",
+            "column": "16"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.goListDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "339",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.goListDriver$1",
+          "site": {
+            "filename": "golist.go",
+            "line": "190",
+            "column": "3"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.getSizesForArgs",
+          "site": {
+            "filename": "golist.go",
+            "line": "191",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Runner).RunRaw",
+          "site": {
+            "filename": "golist.go",
+            "line": "1083",
+            "column": "59"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Runner).runConcurrent",
+          "site": {
+            "filename": "invoke.go",
+            "line": "98",
+            "column": "58"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Invocation).runWithFriendlyError",
+          "site": {
+            "filename": "invoke.go",
+            "line": "124",
+            "column": "46"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*golang.org/x/tools/internal/gocommand.Invocation).run",
+          "site": {
+            "filename": "invoke.go",
+            "line": "187",
+            "column": "18"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "golang.org/x/tools/internal/gocommand.runCmdContext",
+          "site": {
+            "filename": "invoke.go",
+            "line": "285",
+            "column": "22"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "(*os.Process).Kill",
+          "site": {
+            "filename": "invoke.go",
+            "line": "418",
+            "column": "28"
+          },
+          "package": "os"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "SYSTEM_CALLS",
+      "capability": "CAPABILITY_SYSTEM_CALLS",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/analyzer.init github.com/fatih/color.init github.com/fatih/color.stdoutIsTerminal github.com/mattn/go-isatty.IsTerminal golang.org/x/sys/unix.IoctlGetTermios",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/analyzer.init",
+          "package": "github.com/google/capslock/analyzer"
+        },
+        {
+          "name": "github.com/fatih/color.init",
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/fatih/color.stdoutIsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "22",
+            "column": "78"
+          },
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/mattn/go-isatty.IsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "49",
+            "column": "26"
+          },
+          "package": "github.com/mattn/go-isatty"
+        },
+        {
+          "name": "golang.org/x/sys/unix.IoctlGetTermios",
+          "site": {
+            "filename": "isatty_bsd.go",
+            "line": "12",
+            "column": "32"
+          },
+          "package": "golang.org/x/sys/unix"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "SYSTEM_CALLS",
+      "capability": "CAPABILITY_SYSTEM_CALLS",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/analyzer.init github.com/fatih/color.init github.com/fatih/color.stdoutIsTerminal github.com/mattn/go-isatty.IsTerminal golang.org/x/sys/unix.IoctlGetTermios",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/analyzer.init",
+          "package": "github.com/google/capslock/analyzer"
+        },
+        {
+          "name": "github.com/fatih/color.init",
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/fatih/color.stdoutIsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "22",
+            "column": "78"
+          },
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/mattn/go-isatty.IsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "49",
+            "column": "26"
+          },
+          "package": "github.com/mattn/go-isatty"
+        },
+        {
+          "name": "golang.org/x/sys/unix.IoctlGetTermios",
+          "site": {
+            "filename": "isatty_bsd.go",
+            "line": "12",
+            "column": "32"
+          },
+          "package": "golang.org/x/sys/unix"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "SYSTEM_CALLS",
+      "capability": "CAPABILITY_SYSTEM_CALLS",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/analyzer.init github.com/fatih/color.init github.com/fatih/color.stdoutIsTerminal github.com/mattn/go-isatty.IsTerminal golang.org/x/sys/unix.IoctlGetTermios",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/analyzer.init",
+          "package": "github.com/google/capslock/analyzer"
+        },
+        {
+          "name": "github.com/fatih/color.init",
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/fatih/color.stdoutIsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "22",
+            "column": "78"
+          },
+          "package": "github.com/fatih/color"
+        },
+        {
+          "name": "github.com/mattn/go-isatty.IsTerminal",
+          "site": {
+            "filename": "color.go",
+            "line": "49",
+            "column": "26"
+          },
+          "package": "github.com/mattn/go-isatty"
+        },
+        {
+          "name": "golang.org/x/sys/unix.IoctlGetTermios",
+          "site": {
+            "filename": "isatty_bsd.go",
+            "line": "12",
+            "column": "32"
+          },
+          "package": "golang.org/x/sys/unix"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get sync.poolRaceAddr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init#1",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "github.com/google/capslock/proto.file_capability_proto_init",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "992",
+            "column": "41"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/filetype.Builder).Build",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "1121",
+            "column": "9"
+          },
+          "package": "google.golang.org/protobuf/internal/filetype"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/filedesc.Builder).Build",
+          "site": {
+            "filename": "build.go",
+            "line": "138",
+            "column": "24"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/filedesc.newRawFile",
+          "site": {
+            "filename": "build.go",
+            "line": "105",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed",
+          "site": {
+            "filename": "desc_init.go",
+            "line": "30",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/filedesc.getBuilder",
+          "site": {
+            "filename": "desc_init.go",
+            "line": "96",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "desc_init.go",
+            "line": "557",
+            "column": "28"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "sync.poolRaceAddr",
+          "site": {
+            "filename": "pool.go",
+            "line": "151",
+            "column": "29"
+          },
+          "package": "sync"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New (*github.com/spf13/pflag.FlagSet).BoolVar (*github.com/spf13/pflag.FlagSet).BoolVarP (*github.com/spf13/pflag.FlagSet).VarPF (*github.com/spf13/pflag.float32Value).String strconv.FormatFloat internal/strconv.FormatFloat internal/strconv.genericFtoa internal/strconv.float32bits",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.FlagSet).BoolVar",
+          "site": {
+            "filename": "app.go",
+            "line": "95",
+            "column": "12"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.FlagSet).BoolVarP",
+          "site": {
+            "filename": "bool.go",
+            "line": "50",
+            "column": "12"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.FlagSet).VarPF",
+          "site": {
+            "filename": "bool.go",
+            "line": "55",
+            "column": "17"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "(*github.com/spf13/pflag.float32Value).String",
+          "site": {
+            "filename": "flag.go",
+            "line": "859",
+            "column": "26"
+          },
+          "package": "github.com/spf13/pflag"
+        },
+        {
+          "name": "strconv.FormatFloat",
+          "site": {
+            "filename": "float32.go",
+            "line": "23",
+            "column": "68"
+          },
+          "package": "strconv"
+        },
+        {
+          "name": "internal/strconv.FormatFloat",
+          "site": {
+            "filename": "number.go",
+            "line": "190",
+            "column": "28"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.genericFtoa",
+          "site": {
+            "filename": "ftoa.go",
+            "line": "63",
+            "column": "27"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.float32bits",
+          "site": {
+            "filename": "ftoa.go",
+            "line": "77",
+            "column": "28"
+          },
+          "package": "internal/strconv"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load (*golang.org/x/tools/go/packages.loader).refine (*golang.org/x/tools/go/packages.loader).refine$2 (*golang.org/x/tools/go/packages.loader).refine$2$1 (*golang.org/x/tools/go/packages.loader).loadPackage golang.org/x/tools/internal/typesinternal.SetUsesCgo",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "(*golang.org/x/tools/go/packages.loader).refine",
+          "site": {
+            "filename": "packages.go",
+            "line": "289",
+            "column": "18"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "(*golang.org/x/tools/go/packages.loader).refine$2",
+          "site": {
+            "filename": "packages.go",
+            "line": "962",
+            "column": "11"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "(*golang.org/x/tools/go/packages.loader).refine$2$1",
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "(*golang.org/x/tools/go/packages.loader).loadPackage",
+          "site": {
+            "filename": "packages.go",
+            "line": "945",
+            "column": "19"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/internal/typesinternal.SetUsesCgo",
+          "site": {
+            "filename": "packages.go",
+            "line": "1242",
+            "column": "31"
+          },
+          "package": "golang.org/x/tools/internal/typesinternal"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "baseline",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal (*github.com/google/capslock/proto.CapabilityInfoList).ProtoReflect (*google.golang.org/protobuf/internal/impl.messageState).LoadMessageInfo",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+        },
+        {
+          "name": "google.golang.org/protobuf/encoding/protojson.Unmarshal",
+          "site": {
+            "filename": "baseline.go",
+            "line": "24",
+            "column": "31"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "30",
+            "column": "37"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "63",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(*github.com/google/capslock/proto.CapabilityInfoList).ProtoReflect",
+          "site": {
+            "filename": "decode.go",
+            "line": "80",
+            "column": "47"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.messageState).LoadMessageInfo",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "495",
+            "column": "24"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "config",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).literalStore strconv.ParseFloat internal/strconv.ParseFloat internal/strconv.parseFloatPrefix internal/strconv.atof32 internal/strconv.float32frombits",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/config.Load",
+          "package": "github.com/git-pkgs/capcheck/internal/config"
+        },
+        {
+          "name": "encoding/json.Unmarshal",
+          "site": {
+            "filename": "config.go",
+            "line": "69",
+            "column": "26"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.decodeState).unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "113",
+            "column": "20"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.decodeState).value",
+          "site": {
+            "filename": "decode.go",
+            "line": "183",
+            "column": "16"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.decodeState).literalStore",
+          "site": {
+            "filename": "decode.go",
+            "line": "394",
+            "column": "28"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "strconv.ParseFloat",
+          "site": {
+            "filename": "decode.go",
+            "line": "1019",
+            "column": "32"
+          },
+          "package": "strconv"
+        },
+        {
+          "name": "internal/strconv.ParseFloat",
+          "site": {
+            "filename": "number.go",
+            "line": "94",
+            "column": "30"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.parseFloatPrefix",
+          "site": {
+            "filename": "atof.go",
+            "line": "693",
+            "column": "31"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.atof32",
+          "site": {
+            "filename": "atof.go",
+            "line": "702",
+            "column": "22"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.float32frombits",
+          "site": {
+            "filename": "atof.go",
+            "line": "607",
+            "column": "21"
+          },
+          "package": "internal/strconv"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/config",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "diff",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).resolveExtensions (google.golang.org/protobuf/reflect/protoreflect.Value).Bytes (google.golang.org/protobuf/reflect/protoreflect.Value).getBytes",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.Compare",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.index",
+          "site": {
+            "filename": "diff.go",
+            "line": "50",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.toEntry",
+          "site": {
+            "filename": "diff.go",
+            "line": "86",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "(github.com/google/capslock/proto.Capability).String",
+          "site": {
+            "filename": "diff.go",
+            "line": "104",
+            "column": "53"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumStringOf",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "95",
+            "column": "33"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).Values",
+          "site": {
+            "filename": "api_export.go",
+            "line": "75",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "225",
+            "column": "21"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "237",
+            "column": "27"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce",
+          "site": {
+            "filename": "desc.go",
+            "line": "164",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "172",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).resolveExtensions",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "22",
+            "column": "22"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(google.golang.org/protobuf/reflect/protoreflect.Value).Bytes",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "75",
+            "column": "44"
+          },
+          "package": "google.golang.org/protobuf/reflect/protoreflect"
+        },
+        {
+          "name": "(google.golang.org/protobuf/reflect/protoreflect.Value).getBytes",
+          "site": {
+            "filename": "value_union.go",
+            "line": "324",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/reflect/protoreflect"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/diff",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "report",
+      "capabilityName": "UNSAFE_POINTER",
+      "capability": "CAPABILITY_UNSAFE_POINTER",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode strconv.AppendFloat internal/strconv.AppendFloat internal/strconv.genericFtoa internal/strconv.float32bits",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).marshal",
+          "site": {
+            "filename": "stream.go",
+            "line": "212",
+            "column": "18"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).reflectValue",
+          "site": {
+            "filename": "encode.go",
+            "line": "343",
+            "column": "16"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode$bound",
+          "site": {
+            "filename": "encode.go",
+            "line": "367",
+            "column": "17"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode",
+          "package": "encoding/json"
+        },
+        {
+          "name": "strconv.AppendFloat",
+          "site": {
+            "filename": "encode.go",
+            "line": "592",
+            "column": "25"
+          },
+          "package": "strconv"
+        },
+        {
+          "name": "internal/strconv.AppendFloat",
+          "site": {
+            "filename": "number.go",
+            "line": "196",
+            "column": "28"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.genericFtoa",
+          "site": {
+            "filename": "ftoa.go",
+            "line": "69",
+            "column": "20"
+          },
+          "package": "internal/strconv"
+        },
+        {
+          "name": "internal/strconv.float32bits",
+          "site": {
+            "filename": "ftoa.go",
+            "line": "77",
+            "column": "28"
+          },
+          "package": "internal/strconv"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/report",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init google.golang.org/protobuf/runtime/protoimpl.init google.golang.org/protobuf/internal/impl.init",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/google/capslock/proto.init",
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "google.golang.org/protobuf/runtime/protoimpl.init",
+          "package": "google.golang.org/protobuf/runtime/protoimpl"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/impl.init",
+          "package": "google.golang.org/protobuf/internal/impl"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "83",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult",
+          "site": {
+            "filename": "app.go",
+            "line": "169",
+            "column": "23"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
+          "site": {
+            "filename": "app.go",
+            "line": "246",
+            "column": "21"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).marshal",
+          "site": {
+            "filename": "stream.go",
+            "line": "212",
+            "column": "18"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).reflectValue",
+          "site": {
+            "filename": "encode.go",
+            "line": "343",
+            "column": "16"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode$bound",
+          "site": {
+            "filename": "encode.go",
+            "line": "367",
+            "column": "17"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode",
+          "package": "encoding/json"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/internal/gocommand.WriteOverlays encoding/json.Marshal (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/internal/gocommand.WriteOverlays",
+          "site": {
+            "filename": "packages.go",
+            "line": "331",
+            "column": "61"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "encoding/json.Marshal",
+          "site": {
+            "filename": "invoke.go",
+            "line": "557",
+            "column": "24"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).marshal",
+          "site": {
+            "filename": "encode.go",
+            "line": "209",
+            "column": "18"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).reflectValue",
+          "site": {
+            "filename": "encode.go",
+            "line": "343",
+            "column": "16"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode$bound",
+          "site": {
+            "filename": "encode.go",
+            "line": "367",
+            "column": "17"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode",
+          "package": "encoding/json"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "baseline",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal google.golang.org/protobuf/proto.Reset (*google.golang.org/protobuf/internal/impl.messageIfaceWrapper).Reset reflect.Zero",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+        },
+        {
+          "name": "google.golang.org/protobuf/encoding/protojson.Unmarshal",
+          "site": {
+            "filename": "baseline.go",
+            "line": "24",
+            "column": "31"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "30",
+            "column": "37"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "63",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "google.golang.org/protobuf/proto.Reset",
+          "site": {
+            "filename": "decode.go",
+            "line": "70",
+            "column": "13"
+          },
+          "package": "google.golang.org/protobuf/proto"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.messageIfaceWrapper).Reset",
+          "site": {
+            "filename": "reset.go",
+            "line": "18",
+            "column": "11"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "reflect.Zero",
+          "site": {
+            "filename": "message_reflect.go",
+            "line": "418",
+            "column": "29"
+          },
+          "package": "reflect"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "config",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).object reflect.MakeMap",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/config.Load",
+          "package": "github.com/git-pkgs/capcheck/internal/config"
+        },
+        {
+          "name": "encoding/json.Unmarshal",
+          "site": {
+            "filename": "config.go",
+            "line": "69",
+            "column": "26"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.decodeState).unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "113",
+            "column": "20"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.decodeState).value",
+          "site": {
+            "filename": "decode.go",
+            "line": "183",
+            "column": "16"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.decodeState).object",
+          "site": {
+            "filename": "decode.go",
+            "line": "380",
+            "column": "22"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "reflect.MakeMap",
+          "site": {
+            "filename": "decode.go",
+            "line": "649",
+            "column": "25"
+          },
+          "package": "reflect"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/config",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "diff",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).unmarshalFull google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get reflect.funcLayout$1",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.Compare",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.index",
+          "site": {
+            "filename": "diff.go",
+            "line": "50",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.toEntry",
+          "site": {
+            "filename": "diff.go",
+            "line": "86",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "(github.com/google/capslock/proto.Capability).String",
+          "site": {
+            "filename": "diff.go",
+            "line": "104",
+            "column": "53"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumStringOf",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "95",
+            "column": "33"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).Values",
+          "site": {
+            "filename": "api_export.go",
+            "line": "75",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "225",
+            "column": "21"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "237",
+            "column": "27"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce",
+          "site": {
+            "filename": "desc.go",
+            "line": "164",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "172",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).unmarshalFull",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "20",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/filedesc.getBuilder",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "132",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "desc_init.go",
+            "line": "557",
+            "column": "28"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "reflect.funcLayout$1",
+          "site": {
+            "filename": "pool.go",
+            "line": "155",
+            "column": "12"
+          },
+          "package": "reflect"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/diff",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "report",
+      "capabilityName": "REFLECT",
+      "capability": "CAPABILITY_REFLECT",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).marshal",
+          "site": {
+            "filename": "stream.go",
+            "line": "212",
+            "column": "18"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(*encoding/json.encodeState).reflectValue",
+          "site": {
+            "filename": "encode.go",
+            "line": "343",
+            "column": "16"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode$bound",
+          "site": {
+            "filename": "encode.go",
+            "line": "367",
+            "column": "17"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json.floatEncoder).encode",
+          "package": "encoding/json"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/report",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "EXEC",
+      "capability": "CAPABILITY_EXEC",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.main (*github.com/spf13/cobra.Command).Execute (*github.com/spf13/cobra.Command).ExecuteC (*github.com/spf13/cobra.Command).execute github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/go/packages.callDriverOnChunks golang.org/x/tools/go/packages.findExternalDriver$1 os/exec.CommandContext",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.main",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "(*github.com/spf13/cobra.Command).Execute",
+          "site": {
+            "filename": "main.go",
+            "line": "14",
+            "column": "29"
+          },
+          "package": "github.com/spf13/cobra"
+        },
+        {
+          "name": "(*github.com/spf13/cobra.Command).ExecuteC",
+          "site": {
+            "filename": "command.go",
+            "line": "1071",
+            "column": "22"
+          },
+          "package": "github.com/spf13/cobra"
+        },
+        {
+          "name": "(*github.com/spf13/cobra.Command).execute",
+          "site": {
+            "filename": "command.go",
+            "line": "1148",
+            "column": "19"
+          },
+          "package": "github.com/spf13/cobra"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "site": {
+            "filename": "command.go",
+            "line": "1015",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "83",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "site": {
+            "filename": "app.go",
+            "line": "164",
+            "column": "26"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.callDriverOnChunks",
+          "site": {
+            "filename": "packages.go",
+            "line": "318",
+            "column": "38"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.findExternalDriver$1",
+          "site": {
+            "filename": "packages.go",
+            "line": "379",
+            "column": "16"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "os/exec.CommandContext",
+          "site": {
+            "filename": "external.go",
+            "line": "121",
+            "column": "29"
+          },
+          "package": "os/exec"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "EXEC",
+      "capability": "CAPABILITY_EXEC",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/go/packages.callDriverOnChunks golang.org/x/tools/go/packages.findExternalDriver$1 os/exec.CommandContext",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "83",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "site": {
+            "filename": "app.go",
+            "line": "164",
+            "column": "26"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.callDriverOnChunks",
+          "site": {
+            "filename": "packages.go",
+            "line": "318",
+            "column": "38"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.findExternalDriver$1",
+          "site": {
+            "filename": "packages.go",
+            "line": "379",
+            "column": "16"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "os/exec.CommandContext",
+          "site": {
+            "filename": "external.go",
+            "line": "121",
+            "column": "29"
+          },
+          "package": "os/exec"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "EXEC",
+      "capability": "CAPABILITY_EXEC",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/go/packages.callDriverOnChunks golang.org/x/tools/go/packages.findExternalDriver$1 os/exec.CommandContext",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.callDriverOnChunks",
+          "site": {
+            "filename": "packages.go",
+            "line": "318",
+            "column": "38"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.findExternalDriver$1",
+          "site": {
+            "filename": "packages.go",
+            "line": "379",
+            "column": "16"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "os/exec.CommandContext",
+          "site": {
+            "filename": "external.go",
+            "line": "121",
+            "column": "29"
+          },
+          "package": "os/exec"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    }
+  ],
+  "moduleInfo": [
+    {
+      "path": "github.com/fatih/color",
+      "version": "v1.19.0"
+    },
+    {
+      "path": "github.com/google/capslock",
+      "version": "v0.3.1"
+    },
+    {
+      "path": "github.com/mattn/go-colorable",
+      "version": "v0.1.14"
+    },
+    {
+      "path": "github.com/mattn/go-isatty",
+      "version": "v0.0.20"
+    },
+    {
+      "path": "github.com/spf13/cobra",
+      "version": "v1.10.2"
+    },
+    {
+      "path": "github.com/spf13/pflag",
+      "version": "v1.0.10"
+    },
+    {
+      "path": "golang.org/x/mod",
+      "version": "v0.34.0"
+    },
+    {
+      "path": "golang.org/x/sync",
+      "version": "v0.20.0"
+    },
+    {
+      "path": "golang.org/x/sys",
+      "version": "v0.42.0"
+    },
+    {
+      "path": "golang.org/x/tools",
+      "version": "v0.43.0"
+    },
+    {
+      "path": "google.golang.org/protobuf",
+      "version": "v1.36.11"
+    }
+  ],
+  "packageInfo": [
+    {
+      "path": "github.com/fatih/color",
+      "ignoredFiles": [
+        "color_windows.go"
+      ]
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/cmd/capcheck"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/internal/analyse"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/internal/baseline"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/internal/config"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/internal/diff"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/internal/report"
+    },
+    {
+      "path": "github.com/google/capslock/analyzer"
+    },
+    {
+      "path": "github.com/google/capslock/interesting"
+    },
+    {
+      "path": "github.com/google/capslock/proto"
+    },
+    {
+      "path": "github.com/mattn/go-colorable",
+      "ignoredFiles": [
+        "colorable_windows.go"
+      ]
+    },
+    {
+      "path": "github.com/mattn/go-isatty",
+      "ignoredFiles": [
+        "isatty_others.go",
+        "isatty_plan9.go",
+        "isatty_solaris.go",
+        "isatty_tcgets.go",
+        "isatty_windows.go",
+        "isatty_windows_test.go"
+      ]
+    },
+    {
+      "path": "github.com/spf13/cobra",
+      "ignoredFiles": [
+        "command_win.go"
+      ]
+    },
+    {
+      "path": "github.com/spf13/pflag"
+    },
+    {
+      "path": "golang.org/x/mod/semver"
+    },
+    {
+      "path": "golang.org/x/sync/errgroup"
+    },
+    {
+      "path": "golang.org/x/sys/unix",
+      "ignoredFiles": [
+        "affinity_linux.go",
+        "auxv_linux_test.go",
+        "auxv_unsupported.go",
+        "bluetooth_linux.go",
+        "bpxsvc_zos.go",
+        "cap_freebsd.go",
+        "creds_test.go",
+        "darwin_amd64_test.go",
+        "dev_aix_ppc.go",
+        "dev_aix_ppc64.go",
+        "dev_dragonfly.go",
+        "dev_freebsd.go",
+        "dev_linux.go",
+        "dev_linux_test.go",
+        "dev_netbsd.go",
+        "dev_openbsd.go",
+        "dev_zos.go",
+        "dev_zos_test.go",
+        "dup3_test.go",
+        "endian_big.go",
+        "export_mremap_test.go",
+        "fcntl.go",
+        "fcntl_linux_32bit.go",
+        "gccgo.go",
+        "gccgo_linux_amd64.go",
+        "getvfsstat_test.go",
+        "ifreq_linux.go",
+        "ifreq_linux_test.go",
+        "ioctl_linux.go",
+        "ioctl_signed.go",
+        "ioctl_zos.go",
+        "mkasm.go",
+        "mkpost.go",
+        "mksyscall.go",
+        "mksyscall_aix_ppc.go",
+        "mksyscall_aix_ppc64.go",
+        "mksyscall_solaris.go",
+        "mksyscall_zos_s390x.go",
+        "mksysctl_openbsd.go",
+        "mksysnum.go",
+        "mmap_zos_test.go",
+        "mremap.go",
+        "mremap_test.go",
+        "openbsd_test.go",
+        "pipe2_test.go",
+        "pledge_openbsd.go",
+        "ptrace_ios.go",
+        "race.go",
+        "readdirent_getdents.go",
+        "sendfile_test.go",
+        "sockcmsg_dragonfly.go",
+        "sockcmsg_linux.go",
+        "sockcmsg_zos.go",
+        "syscall_aix.go",
+        "syscall_aix_ppc.go",
+        "syscall_aix_ppc64.go",
+        "syscall_aix_test.go",
+        "syscall_darwin_amd64.go",
+        "syscall_dragonfly.go",
+        "syscall_dragonfly_amd64.go",
+        "syscall_freebsd.go",
+        "syscall_freebsd_386.go",
+        "syscall_freebsd_amd64.go",
+        "syscall_freebsd_arm.go",
+        "syscall_freebsd_arm64.go",
+        "syscall_freebsd_riscv64.go",
+        "syscall_freebsd_test.go",
+        "syscall_hurd.go",
+        "syscall_hurd_386.go",
+        "syscall_illumos.go",
+        "syscall_internal_linux_test.go",
+        "syscall_internal_solaris_test.go",
+        "syscall_linux.go",
+        "syscall_linux_386.go",
+        "syscall_linux_alarm.go",
+        "syscall_linux_amd64.go",
+        "syscall_linux_amd64_gc.go",
+        "syscall_linux_arm.go",
+        "syscall_linux_arm64.go",
+        "syscall_linux_gc.go",
+        "syscall_linux_gc_386.go",
+        "syscall_linux_gc_arm.go",
+        "syscall_linux_gccgo_386.go",
+        "syscall_linux_gccgo_arm.go",
+        "syscall_linux_loong64.go",
+        "syscall_linux_mips64x.go",
+        "syscall_linux_mipsx.go",
+        "syscall_linux_ppc.go",
+        "syscall_linux_ppc64x.go",
+        "syscall_linux_riscv64.go",
+        "syscall_linux_s390x.go",
+        "syscall_linux_sparc64.go",
+        "syscall_linux_test.go",
+        "syscall_netbsd.go",
+        "syscall_netbsd_386.go",
+        "syscall_netbsd_amd64.go",
+        "syscall_netbsd_arm.go",
+        "syscall_netbsd_arm64.go",
+        "syscall_netbsd_test.go",
+        "syscall_openbsd.go",
+        "syscall_openbsd_386.go",
+        "syscall_openbsd_amd64.go",
+        "syscall_openbsd_arm.go",
+        "syscall_openbsd_arm64.go",
+        "syscall_openbsd_libc.go",
+        "syscall_openbsd_mips64.go",
+        "syscall_openbsd_ppc64.go",
+        "syscall_openbsd_riscv64.go",
+        "syscall_openbsd_test.go",
+        "syscall_solaris.go",
+        "syscall_solaris_amd64.go",
+        "syscall_solaris_test.go",
+        "syscall_unix_gc_ppc64x.go",
+        "syscall_zos_s390x.go",
+        "syscall_zos_test.go",
+        "sysctl_netbsd_test.go",
+        "sysvshm_linux.go",
+        "sysvshm_unix_test.go",
+        "types_aix.go",
+        "types_darwin.go",
+        "types_dragonfly.go",
+        "types_freebsd.go",
+        "types_netbsd.go",
+        "types_openbsd.go",
+        "types_solaris.go",
+        "unveil_openbsd.go",
+        "vgetrandom_linux.go",
+        "xattr_bsd.go",
+        "xattr_zos_test.go",
+        "zerrors_aix_ppc.go",
+        "zerrors_aix_ppc64.go",
+        "zerrors_darwin_amd64.go",
+        "zerrors_dragonfly_amd64.go",
+        "zerrors_freebsd_386.go",
+        "zerrors_freebsd_amd64.go",
+        "zerrors_freebsd_arm.go",
+        "zerrors_freebsd_arm64.go",
+        "zerrors_freebsd_riscv64.go",
+        "zerrors_linux.go",
+        "zerrors_linux_386.go",
+        "zerrors_linux_amd64.go",
+        "zerrors_linux_arm.go",
+        "zerrors_linux_arm64.go",
+        "zerrors_linux_loong64.go",
+        "zerrors_linux_mips.go",
+        "zerrors_linux_mips64.go",
+        "zerrors_linux_mips64le.go",
+        "zerrors_linux_mipsle.go",
+        "zerrors_linux_ppc.go",
+        "zerrors_linux_ppc64.go",
+        "zerrors_linux_ppc64le.go",
+        "zerrors_linux_riscv64.go",
+        "zerrors_linux_s390x.go",
+        "zerrors_linux_sparc64.go",
+        "zerrors_netbsd_386.go",
+        "zerrors_netbsd_amd64.go",
+        "zerrors_netbsd_arm.go",
+        "zerrors_netbsd_arm64.go",
+        "zerrors_openbsd_386.go",
+        "zerrors_openbsd_amd64.go",
+        "zerrors_openbsd_arm.go",
+        "zerrors_openbsd_arm64.go",
+        "zerrors_openbsd_mips64.go",
+        "zerrors_openbsd_ppc64.go",
+        "zerrors_openbsd_riscv64.go",
+        "zerrors_solaris_amd64.go",
+        "zerrors_zos_s390x.go",
+        "zptrace_armnn_linux.go",
+        "zptrace_linux_arm64.go",
+        "zptrace_mipsnn_linux.go",
+        "zptrace_mipsnnle_linux.go",
+        "zptrace_x86_linux.go",
+        "zsyscall_aix_ppc.go",
+        "zsyscall_aix_ppc64.go",
+        "zsyscall_aix_ppc64_gc.go",
+        "zsyscall_aix_ppc64_gccgo.go",
+        "zsyscall_darwin_amd64.go",
+        "zsyscall_dragonfly_amd64.go",
+        "zsyscall_freebsd_386.go",
+        "zsyscall_freebsd_amd64.go",
+        "zsyscall_freebsd_arm.go",
+        "zsyscall_freebsd_arm64.go",
+        "zsyscall_freebsd_riscv64.go",
+        "zsyscall_illumos_amd64.go",
+        "zsyscall_linux.go",
+        "zsyscall_linux_386.go",
+        "zsyscall_linux_amd64.go",
+        "zsyscall_linux_arm.go",
+        "zsyscall_linux_arm64.go",
+        "zsyscall_linux_loong64.go",
+        "zsyscall_linux_mips.go",
+        "zsyscall_linux_mips64.go",
+        "zsyscall_linux_mips64le.go",
+        "zsyscall_linux_mipsle.go",
+        "zsyscall_linux_ppc.go",
+        "zsyscall_linux_ppc64.go",
+        "zsyscall_linux_ppc64le.go",
+        "zsyscall_linux_riscv64.go",
+        "zsyscall_linux_s390x.go",
+        "zsyscall_linux_sparc64.go",
+        "zsyscall_netbsd_386.go",
+        "zsyscall_netbsd_amd64.go",
+        "zsyscall_netbsd_arm.go",
+        "zsyscall_netbsd_arm64.go",
+        "zsyscall_openbsd_386.go",
+        "zsyscall_openbsd_amd64.go",
+        "zsyscall_openbsd_arm.go",
+        "zsyscall_openbsd_arm64.go",
+        "zsyscall_openbsd_mips64.go",
+        "zsyscall_openbsd_ppc64.go",
+        "zsyscall_openbsd_riscv64.go",
+        "zsyscall_solaris_amd64.go",
+        "zsyscall_zos_s390x.go",
+        "zsysctl_openbsd_386.go",
+        "zsysctl_openbsd_amd64.go",
+        "zsysctl_openbsd_arm.go",
+        "zsysctl_openbsd_arm64.go",
+        "zsysctl_openbsd_mips64.go",
+        "zsysctl_openbsd_ppc64.go",
+        "zsysctl_openbsd_riscv64.go",
+        "zsysnum_darwin_amd64.go",
+        "zsysnum_dragonfly_amd64.go",
+        "zsysnum_freebsd_386.go",
+        "zsysnum_freebsd_amd64.go",
+        "zsysnum_freebsd_arm.go",
+        "zsysnum_freebsd_arm64.go",
+        "zsysnum_freebsd_riscv64.go",
+        "zsysnum_linux_386.go",
+        "zsysnum_linux_amd64.go",
+        "zsysnum_linux_arm.go",
+        "zsysnum_linux_arm64.go",
+        "zsysnum_linux_loong64.go",
+        "zsysnum_linux_mips.go",
+        "zsysnum_linux_mips64.go",
+        "zsysnum_linux_mips64le.go",
+        "zsysnum_linux_mipsle.go",
+        "zsysnum_linux_ppc.go",
+        "zsysnum_linux_ppc64.go",
+        "zsysnum_linux_ppc64le.go",
+        "zsysnum_linux_riscv64.go",
+        "zsysnum_linux_s390x.go",
+        "zsysnum_linux_sparc64.go",
+        "zsysnum_netbsd_386.go",
+        "zsysnum_netbsd_amd64.go",
+        "zsysnum_netbsd_arm.go",
+        "zsysnum_netbsd_arm64.go",
+        "zsysnum_openbsd_386.go",
+        "zsysnum_openbsd_amd64.go",
+        "zsysnum_openbsd_arm.go",
+        "zsysnum_openbsd_arm64.go",
+        "zsysnum_openbsd_mips64.go",
+        "zsysnum_openbsd_ppc64.go",
+        "zsysnum_openbsd_riscv64.go",
+        "zsysnum_zos_s390x.go",
+        "ztypes_aix_ppc.go",
+        "ztypes_aix_ppc64.go",
+        "ztypes_darwin_amd64.go",
+        "ztypes_dragonfly_amd64.go",
+        "ztypes_freebsd_386.go",
+        "ztypes_freebsd_amd64.go",
+        "ztypes_freebsd_arm.go",
+        "ztypes_freebsd_arm64.go",
+        "ztypes_freebsd_riscv64.go",
+        "ztypes_linux.go",
+        "ztypes_linux_386.go",
+        "ztypes_linux_amd64.go",
+        "ztypes_linux_arm.go",
+        "ztypes_linux_arm64.go",
+        "ztypes_linux_loong64.go",
+        "ztypes_linux_mips.go",
+        "ztypes_linux_mips64.go",
+        "ztypes_linux_mips64le.go",
+        "ztypes_linux_mipsle.go",
+        "ztypes_linux_ppc.go",
+        "ztypes_linux_ppc64.go",
+        "ztypes_linux_ppc64le.go",
+        "ztypes_linux_riscv64.go",
+        "ztypes_linux_s390x.go",
+        "ztypes_linux_sparc64.go",
+        "ztypes_netbsd_386.go",
+        "ztypes_netbsd_amd64.go",
+        "ztypes_netbsd_arm.go",
+        "ztypes_netbsd_arm64.go",
+        "ztypes_openbsd_386.go",
+        "ztypes_openbsd_amd64.go",
+        "ztypes_openbsd_arm.go",
+        "ztypes_openbsd_arm64.go",
+        "ztypes_openbsd_mips64.go",
+        "ztypes_openbsd_ppc64.go",
+        "ztypes_openbsd_riscv64.go",
+        "ztypes_solaris_amd64.go",
+        "ztypes_zos_s390x.go",
+        "asm_aix_ppc64.s",
+        "asm_bsd_386.s",
+        "asm_bsd_amd64.s",
+        "asm_bsd_arm.s",
+        "asm_bsd_ppc64.s",
+        "asm_bsd_riscv64.s",
+        "asm_linux_386.s",
+        "asm_linux_amd64.s",
+        "asm_linux_arm.s",
+        "asm_linux_arm64.s",
+        "asm_linux_loong64.s",
+        "asm_linux_mips64x.s",
+        "asm_linux_mipsx.s",
+        "asm_linux_ppc64x.s",
+        "asm_linux_riscv64.s",
+        "asm_linux_s390x.s",
+        "asm_openbsd_mips64.s",
+        "asm_solaris_amd64.s",
+        "asm_zos_s390x.s",
+        "bpxsvc_zos.s",
+        "gccgo_c.c",
+        "symaddr_zos_s390x.s",
+        "zsymaddr_zos_s390x.s",
+        "zsyscall_darwin_amd64.s",
+        "zsyscall_openbsd_386.s",
+        "zsyscall_openbsd_amd64.s",
+        "zsyscall_openbsd_arm.s",
+        "zsyscall_openbsd_arm64.s",
+        "zsyscall_openbsd_mips64.s",
+        "zsyscall_openbsd_ppc64.s",
+        "zsyscall_openbsd_riscv64.s"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/go/ast/astutil"
+    },
+    {
+      "path": "golang.org/x/tools/go/ast/edge"
+    },
+    {
+      "path": "golang.org/x/tools/go/ast/inspector"
+    },
+    {
+      "path": "golang.org/x/tools/go/buildutil",
+      "ignoredFiles": [
+        "util_windows_test.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/go/callgraph"
+    },
+    {
+      "path": "golang.org/x/tools/go/callgraph/internal/chautil"
+    },
+    {
+      "path": "golang.org/x/tools/go/callgraph/vta"
+    },
+    {
+      "path": "golang.org/x/tools/go/callgraph/vta/internal/trie"
+    },
+    {
+      "path": "golang.org/x/tools/go/gcexportdata",
+      "ignoredFiles": [
+        "main.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/go/internal/cgo"
+    },
+    {
+      "path": "golang.org/x/tools/go/loader"
+    },
+    {
+      "path": "golang.org/x/tools/go/packages"
+    },
+    {
+      "path": "golang.org/x/tools/go/ssa"
+    },
+    {
+      "path": "golang.org/x/tools/go/ssa/ssautil"
+    },
+    {
+      "path": "golang.org/x/tools/go/types/objectpath"
+    },
+    {
+      "path": "golang.org/x/tools/go/types/typeutil"
+    },
+    {
+      "path": "golang.org/x/tools/internal/aliases"
+    },
+    {
+      "path": "golang.org/x/tools/internal/event"
+    },
+    {
+      "path": "golang.org/x/tools/internal/event/core"
+    },
+    {
+      "path": "golang.org/x/tools/internal/event/keys"
+    },
+    {
+      "path": "golang.org/x/tools/internal/event/label"
+    },
+    {
+      "path": "golang.org/x/tools/internal/gcimporter",
+      "ignoredFiles": [
+        "israce_test.go",
+        "main.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/internal/gocommand",
+      "ignoredFiles": [
+        "invoke_notunix.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/internal/packagesinternal"
+    },
+    {
+      "path": "golang.org/x/tools/internal/pkgbits"
+    },
+    {
+      "path": "golang.org/x/tools/internal/stdlib",
+      "ignoredFiles": [
+        "generate.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/internal/typeparams",
+      "ignoredFiles": [
+        "copytermlist.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/internal/typesinternal",
+      "ignoredFiles": [
+        "varkind_go124.go"
+      ]
+    },
+    {
+      "path": "golang.org/x/tools/internal/versions"
+    },
+    {
+      "path": "google.golang.org/protobuf/encoding/protojson"
+    },
+    {
+      "path": "google.golang.org/protobuf/encoding/prototext"
+    },
+    {
+      "path": "google.golang.org/protobuf/encoding/protowire"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/descfmt"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/descopts"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/detrand"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/editiondefaults"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/encoding/defval"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/encoding/json"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/encoding/messageset"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/encoding/tag"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/encoding/text"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/errors"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/filedesc"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/filetype"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/flags",
+      "ignoredFiles": [
+        "proto_legacy_enable.go"
+      ]
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/genid"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/impl",
+      "ignoredFiles": [
+        "bitmap_race.go"
+      ]
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/order"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/pragma"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/protolazy"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/set"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/strs"
+    },
+    {
+      "path": "google.golang.org/protobuf/internal/version"
+    },
+    {
+      "path": "google.golang.org/protobuf/proto",
+      "ignoredFiles": [
+        "proto_reflect.go"
+      ]
+    },
+    {
+      "path": "google.golang.org/protobuf/reflect/protoreflect"
+    },
+    {
+      "path": "google.golang.org/protobuf/reflect/protoregistry"
+    },
+    {
+      "path": "google.golang.org/protobuf/runtime/protoiface"
+    },
+    {
+      "path": "google.golang.org/protobuf/runtime/protoimpl"
+    }
+  ]
+}

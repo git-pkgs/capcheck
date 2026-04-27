@@ -1,0 +1,79 @@
+name: capcheck
+description: Gate Go builds on capability changes using google/capslock
+author: git-pkgs
+branding:
+  icon: lock
+  color: blue
+
+inputs:
+  go-version:
+    description: Go version to install (passed to actions/setup-go)
+    required: false
+    default: stable
+  capcheck-version:
+    description: capcheck version to install
+    required: false
+    default: latest
+  working-directory:
+    description: Directory containing the Go module
+    required: false
+    default: .
+  packages:
+    description: Package patterns to analyse
+    required: false
+    default: ./...
+  strict:
+    description: Fail on removed capabilities as well as added
+    required: false
+    default: "false"
+  ignore:
+    description: Comma-separated capabilities to ignore (stacks with capcheck.json)
+    required: false
+    default: ""
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-go@v5
+      with:
+        go-version: ${{ inputs.go-version }}
+
+    - name: Install capcheck
+      shell: bash
+      run: go install github.com/git-pkgs/capcheck/cmd/capcheck@${{ inputs.capcheck-version }}
+
+    - name: Run capcheck
+      id: check
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      run: |
+        set +e
+        args=(check --format github)
+        if [ "${{ inputs.strict }}" = "true" ]; then
+          args+=(--strict)
+        fi
+        if [ -n "${{ inputs.ignore }}" ]; then
+          args+=(--ignore "${{ inputs.ignore }}")
+        fi
+        capcheck "${args[@]}" ${{ inputs.packages }}
+        code=$?
+        echo "exit-code=$code" >> "$GITHUB_OUTPUT"
+        exit 0
+
+    - name: Job summary
+      if: steps.check.outputs.exit-code != '0'
+      shell: bash
+      working-directory: ${{ inputs.working-directory }}
+      run: |
+        {
+          echo '### capcheck'
+          echo
+          echo '```'
+          capcheck check ${{ inputs.packages }} || true
+          echo '```'
+        } >> "$GITHUB_STEP_SUMMARY"
+
+    - name: Fail if changed
+      if: steps.check.outputs.exit-code != '0'
+      shell: bash
+      run: exit ${{ steps.check.outputs.exit-code }}
