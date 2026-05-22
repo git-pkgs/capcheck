@@ -9,3 +9,6 @@ linters:
     - gocritic
     - unparam
     - goconst
+  settings:
+    goconst:
+      ignore-tests: true
