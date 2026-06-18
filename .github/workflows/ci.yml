@@ -25,11 +25,6 @@ jobs:
         with:
           go-version-file: go.mod
 
-      - name: Disable Windows Defender real-time monitoring
-        if: runner.os == 'Windows'
-        shell: powershell
-        run: Set-MpPreference -DisableRealtimeMonitoring $true
-
       - name: Build
         run: go build -v ./...
 
