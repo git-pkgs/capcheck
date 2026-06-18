@@ -1,6 +1,6 @@
 module github.com/git-pkgs/capcheck
 
-go 1.25.0
+go 1.26.4
 
 require (
 	github.com/google/capslock v0.3.2
