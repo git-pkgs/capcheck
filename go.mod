@@ -6,7 +6,7 @@ require (
 	github.com/google/capslock v0.3.2
 	github.com/spf13/cobra v1.10.2
 	golang.org/x/tools v0.49.0
-	google.golang.org/protobuf v1.36.11
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
