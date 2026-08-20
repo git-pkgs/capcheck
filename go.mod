@@ -2,6 +2,8 @@ module github.com/git-pkgs/capcheck
 
 go 1.26.4
 
+toolchain go1.26.6
+
 require (
 	github.com/google/capslock v0.3.2
 	github.com/spf13/cobra v1.10.2
