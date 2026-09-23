@@ -137,4 +137,4 @@ capcheck does not reimplement any analysis. It calls `github.com/google/capslock
 
 ## License
 
-MIT
+[MIT](LICENSE).
