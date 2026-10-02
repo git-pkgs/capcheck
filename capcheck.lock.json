@@ -62,7 +62,7 @@
           "name": "(*github.com/spf13/pflag.FlagSet).BoolVar",
           "site": {
             "filename": "app.go",
-            "line": "95",
+            "line": "105",
             "column": "12"
           },
           "package": "github.com/spf13/pflag"
@@ -212,7 +212,7 @@
           "name": "os.ReadFile",
           "site": {
             "filename": "config.go",
-            "line": "62",
+            "line": "64",
             "column": "23"
           },
           "package": "os"
@@ -410,9 +410,9 @@
         {
           "name": "(*os.File).Write",
           "site": {
-            "filename": "stream.go",
-            "line": "233",
-            "column": "25"
+            "filename": "v2_stream.go",
+            "line": "156",
+            "column": "26"
           },
           "package": "os"
         }
@@ -585,7 +585,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -594,7 +594,7 @@
           "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "site": {
             "filename": "app.go",
-            "line": "164",
+            "line": "174",
             "column": "26"
           },
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
@@ -612,7 +612,7 @@
           "name": "(*context.cancelCtx).cancel",
           "site": {
             "filename": "context.go",
-            "line": "242",
+            "line": "243",
             "column": "29"
           },
           "package": "context"
@@ -621,7 +621,7 @@
           "name": "(*context.afterFuncCtx).cancel",
           "site": {
             "filename": "context.go",
-            "line": "571",
+            "line": "572",
             "column": "15"
           },
           "package": "context"
@@ -634,7 +634,7 @@
           "name": "(*net.netFD).connect$1",
           "site": {
             "filename": "context.go",
-            "line": "358",
+            "line": "359",
             "column": "3"
           },
           "package": "net"
@@ -666,7 +666,7 @@
           "name": "(*context.cancelCtx).cancel",
           "site": {
             "filename": "context.go",
-            "line": "242",
+            "line": "243",
             "column": "29"
           },
           "package": "context"
@@ -675,7 +675,7 @@
           "name": "(*context.afterFuncCtx).cancel",
           "site": {
             "filename": "context.go",
-            "line": "571",
+            "line": "572",
             "column": "15"
           },
           "package": "context"
@@ -688,7 +688,7 @@
           "name": "(*net.netFD).connect$1",
           "site": {
             "filename": "context.go",
-            "line": "358",
+            "line": "359",
             "column": "3"
           },
           "package": "net"
@@ -1181,7 +1181,7 @@
       "packageName": "main",
       "capabilityName": "RUNTIME",
       "capability": "CAPABILITY_RUNTIME",
-      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
@@ -1270,13 +1270,13 @@
           "name": "internal/poll.newPoolPipe",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "internal/poll"
         },
         {
-          "name": "runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
           "site": {
             "filename": "splice_linux.go",
             "line": "197",
@@ -1292,7 +1292,7 @@
       "packageName": "app",
       "capabilityName": "RUNTIME",
       "capability": "CAPABILITY_RUNTIME",
-      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal google.golang.org/protobuf/proto.Reset google.golang.org/protobuf/proto.resetMessage (*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range (google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1 (google.golang.org/protobuf/encoding/protojson.encoder).marshalValue (google.golang.org/protobuf/encoding/protojson.encoder).marshalMap google.golang.org/protobuf/internal/order.RangeEntries (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
@@ -1302,116 +1302,62 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
         },
         {
-          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult",
           "site": {
             "filename": "app.go",
-            "line": "157",
-            "column": "28"
+            "line": "179",
+            "column": "23"
           },
-          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
         },
         {
-          "name": "google.golang.org/protobuf/encoding/protojson.Unmarshal",
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
           "site": {
-            "filename": "baseline.go",
-            "line": "24",
-            "column": "31"
+            "filename": "app.go",
+            "line": "256",
+            "column": "21"
           },
-          "package": "google.golang.org/protobuf/encoding/protojson"
+          "package": "github.com/git-pkgs/capcheck/internal/report"
         },
         {
-          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal",
+          "name": "(*encoding/json.Encoder).Encode",
           "site": {
-            "filename": "decode.go",
-            "line": "30",
-            "column": "37"
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
           },
-          "package": "google.golang.org/protobuf/encoding/protojson"
+          "package": "encoding/json"
         },
         {
-          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal",
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
           "site": {
-            "filename": "decode.go",
-            "line": "63",
-            "column": "20"
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
           },
-          "package": "google.golang.org/protobuf/encoding/protojson"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "google.golang.org/protobuf/proto.Reset",
+          "name": "encoding/json/jsontext.getBufferedEncoder",
           "site": {
-            "filename": "decode.go",
-            "line": "70",
-            "column": "13"
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
           },
-          "package": "google.golang.org/protobuf/proto"
-        },
-        {
-          "name": "google.golang.org/protobuf/proto.resetMessage",
-          "site": {
-            "filename": "reset.go",
-            "line": "21",
-            "column": "14"
-          },
-          "package": "google.golang.org/protobuf/proto"
-        },
-        {
-          "name": "(*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range",
-          "site": {
-            "filename": "reset.go",
-            "line": "36",
-            "column": "9"
-          },
-          "package": "google.golang.org/protobuf/internal/impl"
-        },
-        {
-          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1",
-          "site": {
-            "filename": "message_reflect_gen.go",
-            "line": "182",
-            "column": "10"
-          },
-          "package": "google.golang.org/protobuf/encoding/protojson"
-        },
-        {
-          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalValue",
-          "site": {
-            "filename": "encode.go",
-            "line": "268",
-            "column": "26"
-          },
-          "package": "google.golang.org/protobuf/encoding/protojson"
-        },
-        {
-          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalMap",
-          "site": {
-            "filename": "encode.go",
-            "line": "282",
-            "column": "22"
-          },
-          "package": "google.golang.org/protobuf/encoding/protojson"
-        },
-        {
-          "name": "google.golang.org/protobuf/internal/order.RangeEntries",
-          "site": {
-            "filename": "encode.go",
-            "line": "370",
-            "column": "20"
-          },
-          "package": "google.golang.org/protobuf/internal/order"
+          "package": "encoding/json/jsontext"
         },
         {
           "name": "(*sync.Pool).Get",
           "site": {
-            "filename": "range.go",
-            "line": "91",
-            "column": "23"
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
           },
           "package": "sync"
         },
@@ -1419,13 +1365,13 @@
           "name": "internal/poll.newPoolPipe",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "internal/poll"
         },
         {
-          "name": "runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
           "site": {
             "filename": "splice_linux.go",
             "line": "197",
@@ -1441,80 +1387,99 @@
       "packageName": "analyse",
       "capabilityName": "RUNTIME",
       "capability": "CAPABILITY_RUNTIME",
-      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/internal/gocommand.WriteOverlays encoding/json.Marshal encoding/json/v2.Marshal (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
       "path": [
         {
-          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
-          "name": "github.com/google/capslock/proto.init",
-          "package": "github.com/google/capslock/proto"
-        },
-        {
-          "name": "github.com/google/capslock/proto.init#1",
-          "package": "github.com/google/capslock/proto"
-        },
-        {
-          "name": "github.com/google/capslock/proto.file_capability_proto_init",
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
           "site": {
-            "filename": "capability.pb.go",
-            "line": "992",
-            "column": "41"
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
           },
-          "package": "github.com/google/capslock/proto"
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
-          "name": "(google.golang.org/protobuf/internal/filetype.Builder).Build",
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
           "site": {
-            "filename": "capability.pb.go",
-            "line": "1121",
-            "column": "9"
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
           },
-          "package": "google.golang.org/protobuf/internal/filetype"
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
-          "name": "(google.golang.org/protobuf/internal/filedesc.Builder).Build",
+          "name": "golang.org/x/tools/go/packages.Load",
           "site": {
-            "filename": "build.go",
-            "line": "138",
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/internal/gocommand.WriteOverlays",
+          "site": {
+            "filename": "packages.go",
+            "line": "331",
+            "column": "61"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "encoding/json.Marshal",
+          "site": {
+            "filename": "invoke.go",
+            "line": "557",
             "column": "24"
           },
-          "package": "google.golang.org/protobuf/internal/filedesc"
+          "package": "encoding/json"
         },
         {
-          "name": "google.golang.org/protobuf/internal/filedesc.newRawFile",
+          "name": "encoding/json/v2.Marshal",
           "site": {
-            "filename": "build.go",
-            "line": "105",
-            "column": "18"
+            "filename": "v2_encode.go",
+            "line": "186",
+            "column": "23"
           },
-          "package": "google.golang.org/protobuf/internal/filedesc"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed",
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
           "site": {
-            "filename": "desc_init.go",
-            "line": "30",
-            "column": "18"
+            "filename": "arshal.go",
+            "line": "164",
+            "column": "34"
           },
-          "package": "google.golang.org/protobuf/internal/filedesc"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "google.golang.org/protobuf/internal/filedesc.getBuilder",
+          "name": "encoding/json/jsontext.getBufferedEncoder",
           "site": {
-            "filename": "desc_init.go",
-            "line": "96",
-            "column": "18"
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
           },
-          "package": "google.golang.org/protobuf/internal/filedesc"
+          "package": "encoding/json/jsontext"
         },
         {
           "name": "(*sync.Pool).Get",
           "site": {
-            "filename": "desc_init.go",
-            "line": "557",
-            "column": "28"
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
           },
           "package": "sync"
         },
@@ -1522,13 +1487,13 @@
           "name": "internal/poll.newPoolPipe",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "internal/poll"
         },
         {
-          "name": "runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
           "site": {
             "filename": "splice_linux.go",
             "line": "197",
@@ -1544,7 +1509,7 @@
       "packageName": "baseline",
       "capabilityName": "RUNTIME",
       "capability": "CAPABILITY_RUNTIME",
-      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal google.golang.org/protobuf/proto.Reset google.golang.org/protobuf/proto.resetMessage (*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range (google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1 (google.golang.org/protobuf/encoding/protojson.encoder).marshalValue (google.golang.org/protobuf/encoding/protojson.encoder).marshalMap google.golang.org/protobuf/internal/order.RangeEntries (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal google.golang.org/protobuf/proto.Reset google.golang.org/protobuf/proto.resetMessage (*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range (google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1 (google.golang.org/protobuf/encoding/protojson.encoder).marshalValue (google.golang.org/protobuf/encoding/protojson.encoder).marshalMap google.golang.org/protobuf/internal/order.RangeEntries (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
@@ -1653,13 +1618,13 @@
           "name": "internal/poll.newPoolPipe",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "internal/poll"
         },
         {
-          "name": "runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
           "site": {
             "filename": "splice_linux.go",
             "line": "197",
@@ -1672,10 +1637,87 @@
       "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
     },
     {
+      "packageName": "config",
+      "capabilityName": "RUNTIME",
+      "capability": "CAPABILITY_RUNTIME",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal encoding/json/v2.Unmarshal (encoding/json/jsontext.export).GetBufferedDecoder encoding/json/jsontext.getBufferedDecoder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/config.Load",
+          "package": "github.com/git-pkgs/capcheck/internal/config"
+        },
+        {
+          "name": "encoding/json.Unmarshal",
+          "site": {
+            "filename": "config.go",
+            "line": "71",
+            "column": "26"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "encoding/json/v2.Unmarshal",
+          "site": {
+            "filename": "v2_decode.go",
+            "line": "111",
+            "column": "25"
+          },
+          "package": "encoding/json/v2"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedDecoder",
+          "site": {
+            "filename": "arshal.go",
+            "line": "387",
+            "column": "34"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedDecoder",
+          "site": {
+            "filename": "export.go",
+            "line": "75",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "133",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/poll.newPoolPipe",
+          "site": {
+            "filename": "pool.go",
+            "line": "156",
+            "column": "12"
+          },
+          "package": "internal/poll"
+        },
+        {
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
+          "site": {
+            "filename": "splice_linux.go",
+            "line": "197",
+            "column": "32"
+          },
+          "package": "runtime"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/config",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
       "packageName": "diff",
       "capabilityName": "RUNTIME",
       "capability": "CAPABILITY_RUNTIME",
-      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).unmarshalFull google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).unmarshalFull google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/diff.Compare",
@@ -1793,13 +1835,13 @@
           "name": "internal/poll.newPoolPipe",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "internal/poll"
         },
         {
-          "name": "runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
           "site": {
             "filename": "splice_linux.go",
             "line": "197",
@@ -1815,84 +1857,45 @@
       "packageName": "report",
       "capabilityName": "RUNTIME",
       "capability": "CAPABILITY_RUNTIME",
-      "depPath": "github.com/git-pkgs/capcheck/internal/report.init github.com/git-pkgs/capcheck/internal/diff.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get internal/poll.newPoolPipe runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
       "path": [
         {
-          "name": "github.com/git-pkgs/capcheck/internal/report.init",
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
           "package": "github.com/git-pkgs/capcheck/internal/report"
         },
         {
-          "name": "github.com/git-pkgs/capcheck/internal/diff.init",
-          "package": "github.com/git-pkgs/capcheck/internal/diff"
-        },
-        {
-          "name": "github.com/google/capslock/proto.init",
-          "package": "github.com/google/capslock/proto"
-        },
-        {
-          "name": "github.com/google/capslock/proto.init#1",
-          "package": "github.com/google/capslock/proto"
-        },
-        {
-          "name": "github.com/google/capslock/proto.file_capability_proto_init",
+          "name": "(*encoding/json.Encoder).Encode",
           "site": {
-            "filename": "capability.pb.go",
-            "line": "992",
-            "column": "41"
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
           },
-          "package": "github.com/google/capslock/proto"
+          "package": "encoding/json"
         },
         {
-          "name": "(google.golang.org/protobuf/internal/filetype.Builder).Build",
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
           "site": {
-            "filename": "capability.pb.go",
-            "line": "1121",
-            "column": "9"
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
           },
-          "package": "google.golang.org/protobuf/internal/filetype"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "(google.golang.org/protobuf/internal/filedesc.Builder).Build",
+          "name": "encoding/json/jsontext.getBufferedEncoder",
           "site": {
-            "filename": "build.go",
-            "line": "138",
-            "column": "24"
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
           },
-          "package": "google.golang.org/protobuf/internal/filedesc"
-        },
-        {
-          "name": "google.golang.org/protobuf/internal/filedesc.newRawFile",
-          "site": {
-            "filename": "build.go",
-            "line": "105",
-            "column": "18"
-          },
-          "package": "google.golang.org/protobuf/internal/filedesc"
-        },
-        {
-          "name": "(*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed",
-          "site": {
-            "filename": "desc_init.go",
-            "line": "30",
-            "column": "18"
-          },
-          "package": "google.golang.org/protobuf/internal/filedesc"
-        },
-        {
-          "name": "google.golang.org/protobuf/internal/filedesc.getBuilder",
-          "site": {
-            "filename": "desc_init.go",
-            "line": "96",
-            "column": "18"
-          },
-          "package": "google.golang.org/protobuf/internal/filedesc"
+          "package": "encoding/json/jsontext"
         },
         {
           "name": "(*sync.Pool).Get",
           "site": {
-            "filename": "desc_init.go",
-            "line": "557",
-            "column": "28"
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
           },
           "package": "sync"
         },
@@ -1900,13 +1903,13 @@
           "name": "internal/poll.newPoolPipe",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "internal/poll"
         },
         {
-          "name": "runtime.AddCleanup[internal/poll.splicePipe internal/poll.splicePipeFields]",
+          "name": "runtime.AddCleanup[internal/poll.splicePipe, internal/poll.splicePipeFields]",
           "site": {
             "filename": "splice_linux.go",
             "line": "197",
@@ -1916,13 +1919,13 @@
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/report",
-      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
     },
     {
       "packageName": "main",
       "capabilityName": "READ_SYSTEM_STATE",
       "capability": "CAPABILITY_READ_SYSTEM_STATE",
-      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init golang.org/x/tools/go/packages.init os.Getenv",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init#1 runtime/debug.ReadBuildInfo",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
@@ -1933,21 +1936,17 @@
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
         },
         {
-          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
-          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init#1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
         },
         {
-          "name": "golang.org/x/tools/go/packages.init",
-          "package": "golang.org/x/tools/go/packages"
-        },
-        {
-          "name": "os.Getenv",
+          "name": "runtime/debug.ReadBuildInfo",
           "site": {
-            "filename": "golist.go",
-            "line": "29",
-            "column": "43"
+            "filename": "app.go",
+            "line": "26",
+            "column": "34"
           },
-          "package": "os"
+          "package": "runtime/debug"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
@@ -1967,7 +1966,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -1976,7 +1975,7 @@
           "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "site": {
             "filename": "app.go",
-            "line": "164",
+            "line": "174",
             "column": "26"
           },
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
@@ -2273,7 +2272,7 @@
           "name": "golang.org/x/tools/internal/typeparams.InterfaceTermSet",
           "site": {
             "filename": "coretype.go",
-            "line": "124",
+            "line": "126",
             "column": "26"
           },
           "package": "golang.org/x/tools/internal/typeparams"
@@ -2313,7 +2312,7 @@
           "name": "(*golang.org/x/tools/internal/gcimporter.exportWriter).typ",
           "site": {
             "filename": "iexport.go",
-            "line": "1235",
+            "line": "1240",
             "column": "8"
           },
           "package": "golang.org/x/tools/internal/gcimporter"
@@ -2322,7 +2321,7 @@
           "name": "(*golang.org/x/tools/internal/gcimporter.iexporter).typOff",
           "site": {
             "filename": "iexport.go",
-            "line": "973",
+            "line": "978",
             "column": "26"
           },
           "package": "golang.org/x/tools/internal/gcimporter"
@@ -2331,7 +2330,7 @@
           "name": "(*golang.org/x/tools/internal/gcimporter.exportWriter).flush",
           "site": {
             "filename": "iexport.go",
-            "line": "991",
+            "line": "996",
             "column": "34"
           },
           "package": "golang.org/x/tools/internal/gcimporter"
@@ -2340,7 +2339,7 @@
           "name": "io.Copy",
           "site": {
             "filename": "iexport.go",
-            "line": "982",
+            "line": "987",
             "column": "9"
           },
           "package": "io"
@@ -2381,7 +2380,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -2390,7 +2389,7 @@
           "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "site": {
             "filename": "app.go",
-            "line": "164",
+            "line": "174",
             "column": "26"
           },
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
@@ -2480,7 +2479,7 @@
           "name": "(*golang.org/x/tools/internal/gocommand.Runner).RunRaw",
           "site": {
             "filename": "golist.go",
-            "line": "1083",
+            "line": "1092",
             "column": "59"
           },
           "package": "golang.org/x/tools/internal/gocommand"
@@ -2629,7 +2628,7 @@
           "name": "(*golang.org/x/tools/internal/gocommand.Runner).RunRaw",
           "site": {
             "filename": "golist.go",
-            "line": "1083",
+            "line": "1092",
             "column": "59"
           },
           "package": "golang.org/x/tools/internal/gocommand"
@@ -2744,7 +2743,7 @@
       "packageName": "app",
       "capabilityName": "SYSTEM_CALLS",
       "capability": "CAPABILITY_SYSTEM_CALLS",
-      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal google.golang.org/protobuf/proto.Reset google.golang.org/protobuf/proto.resetMessage (*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range (google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1 (google.golang.org/protobuf/encoding/protojson.encoder).marshalValue (google.golang.org/protobuf/encoding/protojson.encoder).marshalMap google.golang.org/protobuf/internal/order.RangeEntries (*sync.Pool).Get syscall.init$2",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get syscall.init$2",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
@@ -2754,116 +2753,62 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
         },
         {
-          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult",
           "site": {
             "filename": "app.go",
-            "line": "157",
-            "column": "28"
+            "line": "179",
+            "column": "23"
           },
-          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
         },
         {
-          "name": "google.golang.org/protobuf/encoding/protojson.Unmarshal",
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
           "site": {
-            "filename": "baseline.go",
-            "line": "24",
-            "column": "31"
+            "filename": "app.go",
+            "line": "256",
+            "column": "21"
           },
-          "package": "google.golang.org/protobuf/encoding/protojson"
+          "package": "github.com/git-pkgs/capcheck/internal/report"
         },
         {
-          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal",
+          "name": "(*encoding/json.Encoder).Encode",
           "site": {
-            "filename": "decode.go",
-            "line": "30",
-            "column": "37"
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
           },
-          "package": "google.golang.org/protobuf/encoding/protojson"
+          "package": "encoding/json"
         },
         {
-          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal",
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
           "site": {
-            "filename": "decode.go",
-            "line": "63",
-            "column": "20"
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
           },
-          "package": "google.golang.org/protobuf/encoding/protojson"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "google.golang.org/protobuf/proto.Reset",
+          "name": "encoding/json/jsontext.getBufferedEncoder",
           "site": {
-            "filename": "decode.go",
-            "line": "70",
-            "column": "13"
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
           },
-          "package": "google.golang.org/protobuf/proto"
-        },
-        {
-          "name": "google.golang.org/protobuf/proto.resetMessage",
-          "site": {
-            "filename": "reset.go",
-            "line": "21",
-            "column": "14"
-          },
-          "package": "google.golang.org/protobuf/proto"
-        },
-        {
-          "name": "(*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range",
-          "site": {
-            "filename": "reset.go",
-            "line": "36",
-            "column": "9"
-          },
-          "package": "google.golang.org/protobuf/internal/impl"
-        },
-        {
-          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1",
-          "site": {
-            "filename": "message_reflect_gen.go",
-            "line": "182",
-            "column": "10"
-          },
-          "package": "google.golang.org/protobuf/encoding/protojson"
-        },
-        {
-          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalValue",
-          "site": {
-            "filename": "encode.go",
-            "line": "268",
-            "column": "26"
-          },
-          "package": "google.golang.org/protobuf/encoding/protojson"
-        },
-        {
-          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalMap",
-          "site": {
-            "filename": "encode.go",
-            "line": "282",
-            "column": "22"
-          },
-          "package": "google.golang.org/protobuf/encoding/protojson"
-        },
-        {
-          "name": "google.golang.org/protobuf/internal/order.RangeEntries",
-          "site": {
-            "filename": "encode.go",
-            "line": "370",
-            "column": "20"
-          },
-          "package": "google.golang.org/protobuf/internal/order"
+          "package": "encoding/json/jsontext"
         },
         {
           "name": "(*sync.Pool).Get",
           "site": {
-            "filename": "range.go",
-            "line": "91",
-            "column": "23"
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
           },
           "package": "sync"
         },
@@ -2871,7 +2816,7 @@
           "name": "syscall.init$2",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "syscall"
@@ -2884,46 +2829,110 @@
       "packageName": "analyse",
       "capabilityName": "SYSTEM_CALLS",
       "capability": "CAPABILITY_SYSTEM_CALLS",
-      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/analyzer.init github.com/fatih/color.init github.com/fatih/color.stdoutIsTerminal github.com/mattn/go-isatty.IsTerminal golang.org/x/sys/unix.IoctlGetTermios",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/internal/gocommand.WriteOverlays encoding/json.Marshal encoding/json/v2.Marshal (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get syscall.init$2",
       "path": [
         {
-          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
-          "name": "github.com/google/capslock/analyzer.init",
-          "package": "github.com/google/capslock/analyzer"
-        },
-        {
-          "name": "github.com/fatih/color.init",
-          "package": "github.com/fatih/color"
-        },
-        {
-          "name": "github.com/fatih/color.stdoutIsTerminal",
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
           "site": {
-            "filename": "color.go",
-            "line": "22",
-            "column": "78"
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
           },
-          "package": "github.com/fatih/color"
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
-          "name": "github.com/mattn/go-isatty.IsTerminal",
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
           "site": {
-            "filename": "color.go",
-            "line": "49",
-            "column": "26"
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
           },
-          "package": "github.com/mattn/go-isatty"
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
-          "name": "golang.org/x/sys/unix.IoctlGetTermios",
+          "name": "golang.org/x/tools/go/packages.Load",
           "site": {
-            "filename": "isatty_tcgets.go",
-            "line": "12",
-            "column": "32"
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
           },
-          "package": "golang.org/x/sys/unix"
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/internal/gocommand.WriteOverlays",
+          "site": {
+            "filename": "packages.go",
+            "line": "331",
+            "column": "61"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "encoding/json.Marshal",
+          "site": {
+            "filename": "invoke.go",
+            "line": "557",
+            "column": "24"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "encoding/json/v2.Marshal",
+          "site": {
+            "filename": "v2_encode.go",
+            "line": "186",
+            "column": "23"
+          },
+          "package": "encoding/json/v2"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
+          "site": {
+            "filename": "arshal.go",
+            "line": "164",
+            "column": "34"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedEncoder",
+          "site": {
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "syscall.init$2",
+          "site": {
+            "filename": "pool.go",
+            "line": "156",
+            "column": "12"
+          },
+          "package": "syscall"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
@@ -3042,7 +3051,7 @@
           "name": "syscall.init$2",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "syscall"
@@ -3050,6 +3059,74 @@
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
       "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "config",
+      "capabilityName": "SYSTEM_CALLS",
+      "capability": "CAPABILITY_SYSTEM_CALLS",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal encoding/json/v2.Unmarshal (encoding/json/jsontext.export).GetBufferedDecoder encoding/json/jsontext.getBufferedDecoder (*sync.Pool).Get syscall.init$2",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/config.Load",
+          "package": "github.com/git-pkgs/capcheck/internal/config"
+        },
+        {
+          "name": "encoding/json.Unmarshal",
+          "site": {
+            "filename": "config.go",
+            "line": "71",
+            "column": "26"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "encoding/json/v2.Unmarshal",
+          "site": {
+            "filename": "v2_decode.go",
+            "line": "111",
+            "column": "25"
+          },
+          "package": "encoding/json/v2"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedDecoder",
+          "site": {
+            "filename": "arshal.go",
+            "line": "387",
+            "column": "34"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedDecoder",
+          "site": {
+            "filename": "export.go",
+            "line": "75",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "133",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "syscall.init$2",
+          "site": {
+            "filename": "pool.go",
+            "line": "156",
+            "column": "12"
+          },
+          "package": "syscall"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/config",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
     },
     {
       "packageName": "diff",
@@ -3173,7 +3250,7 @@
           "name": "syscall.init$2",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "syscall"
@@ -3186,15 +3263,78 @@
       "packageName": "report",
       "capabilityName": "SYSTEM_CALLS",
       "capability": "CAPABILITY_SYSTEM_CALLS",
-      "depPath": "github.com/git-pkgs/capcheck/internal/report.init github.com/git-pkgs/capcheck/internal/diff.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get syscall.init$2",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get syscall.init$2",
       "path": [
         {
-          "name": "github.com/git-pkgs/capcheck/internal/report.init",
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
           "package": "github.com/git-pkgs/capcheck/internal/report"
         },
         {
-          "name": "github.com/git-pkgs/capcheck/internal/diff.init",
-          "package": "github.com/git-pkgs/capcheck/internal/diff"
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
+          "site": {
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedEncoder",
+          "site": {
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "syscall.init$2",
+          "site": {
+            "filename": "pool.go",
+            "line": "156",
+            "column": "12"
+          },
+          "package": "syscall"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/report",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "main",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck.init github.com/git-pkgs/capcheck/cmd/capcheck/app.init github.com/git-pkgs/capcheck/internal/analyse.init github.com/google/capslock/proto.init github.com/google/capslock/proto.init#1 github.com/google/capslock/proto.file_capability_proto_init (google.golang.org/protobuf/internal/filetype.Builder).Build (google.golang.org/protobuf/internal/filedesc.Builder).Build google.golang.org/protobuf/internal/filedesc.newRawFile (*google.golang.org/protobuf/internal/filedesc.File).unmarshalSeed google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.init",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.init",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
         },
         {
           "name": "github.com/google/capslock/proto.init",
@@ -3268,17 +3408,722 @@
           "package": "sync"
         },
         {
-          "name": "syscall.init$2",
+          "name": "(*sync.Pool).pin",
           "site": {
             "filename": "pool.go",
-            "line": "155",
-            "column": "12"
+            "line": "136",
+            "column": "17"
           },
-          "package": "syscall"
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "app",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
+          "site": {
+            "filename": "app.go",
+            "line": "93",
+            "column": "19"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult",
+          "site": {
+            "filename": "app.go",
+            "line": "179",
+            "column": "23"
+          },
+          "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
+          "site": {
+            "filename": "app.go",
+            "line": "256",
+            "column": "21"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
+          "site": {
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedEncoder",
+          "site": {
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pin",
+          "site": {
+            "filename": "pool.go",
+            "line": "136",
+            "column": "17"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "analyse",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/internal/gocommand.WriteOverlays encoding/json.Marshal encoding/json/v2.Marshal (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.Run$1",
+          "site": {
+            "filename": "analyse.go",
+            "line": "29",
+            "column": "2"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/analyse.analyse",
+          "site": {
+            "filename": "analyse.go",
+            "line": "30",
+            "column": "22"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/analyse"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.Load",
+          "site": {
+            "filename": "analyse.go",
+            "line": "59",
+            "column": "28"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/go/packages.defaultDriver",
+          "site": {
+            "filename": "packages.go",
+            "line": "263",
+            "column": "42"
+          },
+          "package": "golang.org/x/tools/go/packages"
+        },
+        {
+          "name": "golang.org/x/tools/internal/gocommand.WriteOverlays",
+          "site": {
+            "filename": "packages.go",
+            "line": "331",
+            "column": "61"
+          },
+          "package": "golang.org/x/tools/internal/gocommand"
+        },
+        {
+          "name": "encoding/json.Marshal",
+          "site": {
+            "filename": "invoke.go",
+            "line": "557",
+            "column": "24"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "encoding/json/v2.Marshal",
+          "site": {
+            "filename": "v2_encode.go",
+            "line": "186",
+            "column": "23"
+          },
+          "package": "encoding/json/v2"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
+          "site": {
+            "filename": "arshal.go",
+            "line": "164",
+            "column": "34"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedEncoder",
+          "site": {
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pin",
+          "site": {
+            "filename": "pool.go",
+            "line": "136",
+            "column": "17"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "baseline",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/internal/baseline.Read google.golang.org/protobuf/encoding/protojson.Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal (google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal google.golang.org/protobuf/proto.Reset google.golang.org/protobuf/proto.resetMessage (*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range (google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1 (google.golang.org/protobuf/encoding/protojson.encoder).marshalValue (google.golang.org/protobuf/encoding/protojson.encoder).marshalMap google.golang.org/protobuf/internal/order.RangeEntries (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/baseline.Read",
+          "package": "github.com/git-pkgs/capcheck/internal/baseline"
+        },
+        {
+          "name": "google.golang.org/protobuf/encoding/protojson.Unmarshal",
+          "site": {
+            "filename": "baseline.go",
+            "line": "24",
+            "column": "31"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).Unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "30",
+            "column": "37"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.UnmarshalOptions).unmarshal",
+          "site": {
+            "filename": "decode.go",
+            "line": "63",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "google.golang.org/protobuf/proto.Reset",
+          "site": {
+            "filename": "decode.go",
+            "line": "70",
+            "column": "13"
+          },
+          "package": "google.golang.org/protobuf/proto"
+        },
+        {
+          "name": "google.golang.org/protobuf/proto.resetMessage",
+          "site": {
+            "filename": "reset.go",
+            "line": "21",
+            "column": "14"
+          },
+          "package": "google.golang.org/protobuf/proto"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/impl.messageReflectWrapper).Range",
+          "site": {
+            "filename": "reset.go",
+            "line": "36",
+            "column": "9"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalMessage$1",
+          "site": {
+            "filename": "message_reflect_gen.go",
+            "line": "182",
+            "column": "10"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalValue",
+          "site": {
+            "filename": "encode.go",
+            "line": "268",
+            "column": "26"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "(google.golang.org/protobuf/encoding/protojson.encoder).marshalMap",
+          "site": {
+            "filename": "encode.go",
+            "line": "282",
+            "column": "22"
+          },
+          "package": "google.golang.org/protobuf/encoding/protojson"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/order.RangeEntries",
+          "site": {
+            "filename": "encode.go",
+            "line": "370",
+            "column": "20"
+          },
+          "package": "google.golang.org/protobuf/internal/order"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "range.go",
+            "line": "91",
+            "column": "23"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pin",
+          "site": {
+            "filename": "pool.go",
+            "line": "136",
+            "column": "17"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/baseline",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "config",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal encoding/json/v2.Unmarshal (encoding/json/jsontext.export).GetBufferedDecoder encoding/json/jsontext.getBufferedDecoder (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/config.Load",
+          "package": "github.com/git-pkgs/capcheck/internal/config"
+        },
+        {
+          "name": "encoding/json.Unmarshal",
+          "site": {
+            "filename": "config.go",
+            "line": "71",
+            "column": "26"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "encoding/json/v2.Unmarshal",
+          "site": {
+            "filename": "v2_decode.go",
+            "line": "111",
+            "column": "25"
+          },
+          "package": "encoding/json/v2"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedDecoder",
+          "site": {
+            "filename": "arshal.go",
+            "line": "387",
+            "column": "34"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedDecoder",
+          "site": {
+            "filename": "export.go",
+            "line": "75",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "133",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pin",
+          "site": {
+            "filename": "pool.go",
+            "line": "136",
+            "column": "17"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/config",
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
+    },
+    {
+      "packageName": "diff",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/internal/diff.Compare github.com/git-pkgs/capcheck/internal/diff.index github.com/git-pkgs/capcheck/internal/diff.toEntry (github.com/google/capslock/proto.Capability).String (google.golang.org/protobuf/internal/impl.Export).EnumStringOf (*google.golang.org/protobuf/internal/filedesc.Enum).Values (*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInit (*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce (*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit (*google.golang.org/protobuf/internal/filedesc.File).unmarshalFull google.golang.org/protobuf/internal/filedesc.getBuilder (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.Compare",
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.index",
+          "site": {
+            "filename": "diff.go",
+            "line": "50",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/diff.toEntry",
+          "site": {
+            "filename": "diff.go",
+            "line": "86",
+            "column": "15"
+          },
+          "package": "github.com/git-pkgs/capcheck/internal/diff"
+        },
+        {
+          "name": "(github.com/google/capslock/proto.Capability).String",
+          "site": {
+            "filename": "diff.go",
+            "line": "104",
+            "column": "53"
+          },
+          "package": "github.com/google/capslock/proto"
+        },
+        {
+          "name": "(google.golang.org/protobuf/internal/impl.Export).EnumStringOf",
+          "site": {
+            "filename": "capability.pb.go",
+            "line": "95",
+            "column": "33"
+          },
+          "package": "google.golang.org/protobuf/internal/impl"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).Values",
+          "site": {
+            "filename": "api_export.go",
+            "line": "75",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.Enum).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "225",
+            "column": "21"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "237",
+            "column": "27"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyInitOnce",
+          "site": {
+            "filename": "desc.go",
+            "line": "164",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).lazyRawInit",
+          "site": {
+            "filename": "desc.go",
+            "line": "172",
+            "column": "17"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*google.golang.org/protobuf/internal/filedesc.File).unmarshalFull",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "20",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "google.golang.org/protobuf/internal/filedesc.getBuilder",
+          "site": {
+            "filename": "desc_lazy.go",
+            "line": "132",
+            "column": "18"
+          },
+          "package": "google.golang.org/protobuf/internal/filedesc"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "desc_init.go",
+            "line": "557",
+            "column": "28"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pin",
+          "site": {
+            "filename": "pool.go",
+            "line": "136",
+            "column": "17"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
+        }
+      ],
+      "packageDir": "github.com/git-pkgs/capcheck/internal/diff",
+      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+    },
+    {
+      "packageName": "report",
+      "capabilityName": "ARBITRARY_EXECUTION",
+      "capability": "CAPABILITY_ARBITRARY_EXECUTION",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get (*sync.Pool).pin (*sync.Pool).pinSlow internal/runtime/atomic.StoreReluintptr",
+      "path": [
+        {
+          "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
+          "package": "github.com/git-pkgs/capcheck/internal/report"
+        },
+        {
+          "name": "(*encoding/json.Encoder).Encode",
+          "site": {
+            "filename": "report.go",
+            "line": "51",
+            "column": "19"
+          },
+          "package": "encoding/json"
+        },
+        {
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
+          "site": {
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "encoding/json/jsontext.getBufferedEncoder",
+          "site": {
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
+          },
+          "package": "encoding/json/jsontext"
+        },
+        {
+          "name": "(*sync.Pool).Get",
+          "site": {
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pin",
+          "site": {
+            "filename": "pool.go",
+            "line": "136",
+            "column": "17"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "(*sync.Pool).pinSlow",
+          "site": {
+            "filename": "pool.go",
+            "line": "221",
+            "column": "18"
+          },
+          "package": "sync"
+        },
+        {
+          "name": "internal/runtime/atomic.StoreReluintptr",
+          "site": {
+            "filename": "pool.go",
+            "line": "244",
+            "column": "26"
+          },
+          "package": "internal/runtime/atomic"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/report",
-      "capabilityType": "CAPABILITY_TYPE_TRANSITIVE"
+      "capabilityType": "CAPABILITY_TYPE_DIRECT"
     },
     {
       "packageName": "main",
@@ -3373,7 +4218,7 @@
           "name": "sync.poolRaceAddr",
           "site": {
             "filename": "pool.go",
-            "line": "151",
+            "line": "152",
             "column": "29"
           },
           "package": "sync"
@@ -3386,7 +4231,7 @@
       "packageName": "app",
       "capabilityName": "UNSAFE_POINTER",
       "capability": "CAPABILITY_UNSAFE_POINTER",
-      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New (*github.com/spf13/pflag.FlagSet).BoolVar (*github.com/spf13/pflag.FlagSet).BoolVarP (*github.com/spf13/pflag.FlagSet).VarPF (*github.com/spf13/pflag.float32Value).String strconv.FormatFloat internal/strconv.FormatFloat internal/strconv.genericFtoa internal/strconv.float32bits",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New (*github.com/spf13/pflag.FlagSet).BoolVar (*github.com/spf13/pflag.FlagSet).BoolVarP (*github.com/spf13/pflag.FlagSet).VarPF (*github.com/spf13/pflag.float32Value).String strconv.FormatFloat internal/strconv.FormatFloat internal/strconv.ftoa32 internal/strconv.float32bits",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New",
@@ -3396,7 +4241,7 @@
           "name": "(*github.com/spf13/pflag.FlagSet).BoolVar",
           "site": {
             "filename": "app.go",
-            "line": "95",
+            "line": "105",
             "column": "12"
           },
           "package": "github.com/spf13/pflag"
@@ -3447,11 +4292,11 @@
           "package": "internal/strconv"
         },
         {
-          "name": "internal/strconv.genericFtoa",
+          "name": "internal/strconv.ftoa32",
           "site": {
             "filename": "ftoa.go",
-            "line": "63",
-            "column": "27"
+            "line": "61",
+            "column": "23"
           },
           "package": "internal/strconv"
         },
@@ -3459,8 +4304,8 @@
           "name": "internal/strconv.float32bits",
           "site": {
             "filename": "ftoa.go",
-            "line": "77",
-            "column": "28"
+            "line": "93",
+            "column": "25"
           },
           "package": "internal/strconv"
         }
@@ -3518,7 +4363,7 @@
           "name": "(*golang.org/x/tools/go/packages.loader).refine$2",
           "site": {
             "filename": "packages.go",
-            "line": "962",
+            "line": "973",
             "column": "11"
           },
           "package": "golang.org/x/tools/go/packages"
@@ -3531,7 +4376,7 @@
           "name": "(*golang.org/x/tools/go/packages.loader).loadPackage",
           "site": {
             "filename": "packages.go",
-            "line": "945",
+            "line": "956",
             "column": "19"
           },
           "package": "golang.org/x/tools/go/packages"
@@ -3540,7 +4385,7 @@
           "name": "golang.org/x/tools/internal/typesinternal.SetUsesCgo",
           "site": {
             "filename": "packages.go",
-            "line": "1242",
+            "line": "1260",
             "column": "31"
           },
           "package": "golang.org/x/tools/internal/typesinternal"
@@ -3612,7 +4457,7 @@
       "packageName": "config",
       "capabilityName": "UNSAFE_POINTER",
       "capability": "CAPABILITY_UNSAFE_POINTER",
-      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).literalStore strconv.ParseFloat internal/strconv.ParseFloat internal/strconv.parseFloatPrefix internal/strconv.atof32 internal/strconv.float32frombits",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal encoding/json/v2.Unmarshal (encoding/json/jsontext.export).GetBufferedDecoder encoding/json/jsontext.getBufferedDecoder (*sync.Pool).Get sync.poolRaceAddr",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/config.Load",
@@ -3622,82 +4467,55 @@
           "name": "encoding/json.Unmarshal",
           "site": {
             "filename": "config.go",
-            "line": "69",
+            "line": "71",
             "column": "26"
           },
           "package": "encoding/json"
         },
         {
-          "name": "(*encoding/json.decodeState).unmarshal",
+          "name": "encoding/json/v2.Unmarshal",
           "site": {
-            "filename": "decode.go",
-            "line": "113",
-            "column": "20"
+            "filename": "v2_decode.go",
+            "line": "111",
+            "column": "25"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*encoding/json.decodeState).value",
+          "name": "(encoding/json/jsontext.export).GetBufferedDecoder",
           "site": {
-            "filename": "decode.go",
-            "line": "183",
-            "column": "16"
+            "filename": "arshal.go",
+            "line": "387",
+            "column": "34"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "(*encoding/json.decodeState).literalStore",
+          "name": "encoding/json/jsontext.getBufferedDecoder",
           "site": {
-            "filename": "decode.go",
-            "line": "394",
-            "column": "28"
+            "filename": "export.go",
+            "line": "75",
+            "column": "27"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "strconv.ParseFloat",
+          "name": "(*sync.Pool).Get",
           "site": {
-            "filename": "decode.go",
-            "line": "1019",
-            "column": "32"
-          },
-          "package": "strconv"
-        },
-        {
-          "name": "internal/strconv.ParseFloat",
-          "site": {
-            "filename": "number.go",
-            "line": "94",
+            "filename": "pools.go",
+            "line": "133",
             "column": "30"
           },
-          "package": "internal/strconv"
+          "package": "sync"
         },
         {
-          "name": "internal/strconv.parseFloatPrefix",
+          "name": "sync.poolRaceAddr",
           "site": {
-            "filename": "atof.go",
-            "line": "693",
-            "column": "31"
+            "filename": "pool.go",
+            "line": "152",
+            "column": "29"
           },
-          "package": "internal/strconv"
-        },
-        {
-          "name": "internal/strconv.atof32",
-          "site": {
-            "filename": "atof.go",
-            "line": "702",
-            "column": "22"
-          },
-          "package": "internal/strconv"
-        },
-        {
-          "name": "internal/strconv.float32frombits",
-          "site": {
-            "filename": "atof.go",
-            "line": "607",
-            "column": "21"
-          },
-          "package": "internal/strconv"
+          "package": "sync"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/config",
@@ -3829,7 +4647,7 @@
       "packageName": "report",
       "capabilityName": "UNSAFE_POINTER",
       "capability": "CAPABILITY_UNSAFE_POINTER",
-      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode strconv.AppendFloat internal/strconv.AppendFloat internal/strconv.genericFtoa internal/strconv.float32bits",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (encoding/json/jsontext.export).GetBufferedEncoder encoding/json/jsontext.getBufferedEncoder (*sync.Pool).Get sync.poolRaceAddr",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
@@ -3845,71 +4663,40 @@
           "package": "encoding/json"
         },
         {
-          "name": "(*encoding/json.encodeState).marshal",
+          "name": "(encoding/json/jsontext.export).GetBufferedEncoder",
           "site": {
-            "filename": "stream.go",
-            "line": "212",
-            "column": "18"
+            "filename": "v2_stream.go",
+            "line": "141",
+            "column": "32"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "(*encoding/json.encodeState).reflectValue",
+          "name": "encoding/json/jsontext.getBufferedEncoder",
           "site": {
-            "filename": "encode.go",
-            "line": "343",
-            "column": "16"
+            "filename": "export.go",
+            "line": "61",
+            "column": "27"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/jsontext"
         },
         {
-          "name": "(encoding/json.floatEncoder).encode$bound",
+          "name": "(*sync.Pool).Get",
           "site": {
-            "filename": "encode.go",
-            "line": "367",
-            "column": "17"
+            "filename": "pools.go",
+            "line": "45",
+            "column": "30"
           },
-          "package": "encoding/json"
+          "package": "sync"
         },
         {
-          "name": "(encoding/json.floatEncoder).encode",
-          "package": "encoding/json"
-        },
-        {
-          "name": "strconv.AppendFloat",
+          "name": "sync.poolRaceAddr",
           "site": {
-            "filename": "encode.go",
-            "line": "592",
-            "column": "25"
+            "filename": "pool.go",
+            "line": "152",
+            "column": "29"
           },
-          "package": "strconv"
-        },
-        {
-          "name": "internal/strconv.AppendFloat",
-          "site": {
-            "filename": "number.go",
-            "line": "196",
-            "column": "28"
-          },
-          "package": "internal/strconv"
-        },
-        {
-          "name": "internal/strconv.genericFtoa",
-          "site": {
-            "filename": "ftoa.go",
-            "line": "69",
-            "column": "20"
-          },
-          "package": "internal/strconv"
-        },
-        {
-          "name": "internal/strconv.float32bits",
-          "site": {
-            "filename": "ftoa.go",
-            "line": "77",
-            "column": "28"
-          },
-          "package": "internal/strconv"
+          "package": "sync"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/report",
@@ -3953,7 +4740,7 @@
       "packageName": "app",
       "capabilityName": "REFLECT",
       "capability": "CAPABILITY_REFLECT",
-      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+      "depPath": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1 github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode encoding/json/v2.MarshalEncode encoding/json/v2.marshalEncode encoding/json/v2.makeBytesArshaler$1",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.New$1",
@@ -3963,7 +4750,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -3972,7 +4759,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.writeResult",
           "site": {
             "filename": "app.go",
-            "line": "169",
+            "line": "179",
             "column": "23"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -3981,7 +4768,7 @@
           "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
           "site": {
             "filename": "app.go",
-            "line": "246",
+            "line": "256",
             "column": "21"
           },
           "package": "github.com/git-pkgs/capcheck/internal/report"
@@ -3996,35 +4783,31 @@
           "package": "encoding/json"
         },
         {
-          "name": "(*encoding/json.encodeState).marshal",
+          "name": "encoding/json/v2.MarshalEncode",
           "site": {
-            "filename": "stream.go",
-            "line": "212",
-            "column": "18"
+            "filename": "v2_stream.go",
+            "line": "143",
+            "column": "32"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*encoding/json.encodeState).reflectValue",
+          "name": "encoding/json/v2.marshalEncode",
           "site": {
-            "filename": "encode.go",
-            "line": "343",
-            "column": "16"
+            "filename": "arshal.go",
+            "line": "220",
+            "column": "21"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(encoding/json.floatEncoder).encode$bound",
+          "name": "encoding/json/v2.makeBytesArshaler$1",
           "site": {
-            "filename": "encode.go",
-            "line": "367",
-            "column": "17"
+            "filename": "arshal.go",
+            "line": "248",
+            "column": "19"
           },
-          "package": "encoding/json"
-        },
-        {
-          "name": "(encoding/json.floatEncoder).encode",
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/cmd/capcheck/app",
@@ -4034,7 +4817,7 @@
       "packageName": "analyse",
       "capabilityName": "REFLECT",
       "capability": "CAPABILITY_REFLECT",
-      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/internal/gocommand.WriteOverlays encoding/json.Marshal (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+      "depPath": "github.com/git-pkgs/capcheck/internal/analyse.Run github.com/git-pkgs/capcheck/internal/analyse.Run$1 github.com/git-pkgs/capcheck/internal/analyse.analyse golang.org/x/tools/go/packages.Load golang.org/x/tools/go/packages.defaultDriver golang.org/x/tools/internal/gocommand.WriteOverlays encoding/json.Marshal encoding/json/v2.Marshal encoding/json/v2.marshalEncode encoding/json/v2.makeBytesArshaler$1",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
@@ -4095,35 +4878,31 @@
           "package": "encoding/json"
         },
         {
-          "name": "(*encoding/json.encodeState).marshal",
+          "name": "encoding/json/v2.Marshal",
           "site": {
-            "filename": "encode.go",
-            "line": "209",
-            "column": "18"
+            "filename": "v2_encode.go",
+            "line": "186",
+            "column": "23"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*encoding/json.encodeState).reflectValue",
+          "name": "encoding/json/v2.marshalEncode",
           "site": {
-            "filename": "encode.go",
-            "line": "343",
-            "column": "16"
+            "filename": "arshal.go",
+            "line": "168",
+            "column": "21"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(encoding/json.floatEncoder).encode$bound",
+          "name": "encoding/json/v2.makeBytesArshaler$1",
           "site": {
-            "filename": "encode.go",
-            "line": "367",
-            "column": "17"
+            "filename": "arshal.go",
+            "line": "248",
+            "column": "19"
           },
-          "package": "encoding/json"
-        },
-        {
-          "name": "(encoding/json.floatEncoder).encode",
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/analyse",
@@ -4201,7 +4980,7 @@
       "packageName": "config",
       "capabilityName": "REFLECT",
       "capability": "CAPABILITY_REFLECT",
-      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal (*encoding/json.decodeState).unmarshal (*encoding/json.decodeState).value (*encoding/json.decodeState).object reflect.MakeMap",
+      "depPath": "github.com/git-pkgs/capcheck/internal/config.Load encoding/json.Unmarshal encoding/json/v2.Unmarshal encoding/json/v2.unmarshalDecode encoding/json/v2.makeMapArshaler$3 reflect.MakeMap",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/config.Load",
@@ -4211,44 +4990,44 @@
           "name": "encoding/json.Unmarshal",
           "site": {
             "filename": "config.go",
-            "line": "69",
+            "line": "71",
             "column": "26"
           },
           "package": "encoding/json"
         },
         {
-          "name": "(*encoding/json.decodeState).unmarshal",
+          "name": "encoding/json/v2.Unmarshal",
           "site": {
-            "filename": "decode.go",
-            "line": "113",
-            "column": "20"
+            "filename": "v2_decode.go",
+            "line": "111",
+            "column": "25"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*encoding/json.decodeState).value",
+          "name": "encoding/json/v2.unmarshalDecode",
           "site": {
-            "filename": "decode.go",
-            "line": "183",
-            "column": "16"
+            "filename": "arshal.go",
+            "line": "390",
+            "column": "23"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*encoding/json.decodeState).object",
+          "name": "encoding/json/v2.makeMapArshaler$3",
           "site": {
-            "filename": "decode.go",
-            "line": "380",
-            "column": "22"
+            "filename": "arshal.go",
+            "line": "471",
+            "column": "21"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
           "name": "reflect.MakeMap",
           "site": {
-            "filename": "decode.go",
-            "line": "649",
-            "column": "25"
+            "filename": "arshal_default.go",
+            "line": "981",
+            "column": "27"
           },
           "package": "reflect"
         }
@@ -4378,7 +5157,7 @@
           "name": "reflect.funcLayout$1",
           "site": {
             "filename": "pool.go",
-            "line": "155",
+            "line": "156",
             "column": "12"
           },
           "package": "reflect"
@@ -4391,7 +5170,7 @@
       "packageName": "report",
       "capabilityName": "REFLECT",
       "capability": "CAPABILITY_REFLECT",
-      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode (*encoding/json.encodeState).marshal (*encoding/json.encodeState).reflectValue (encoding/json.floatEncoder).encode$bound (encoding/json.floatEncoder).encode",
+      "depPath": "github.com/git-pkgs/capcheck/internal/report.JSON (*encoding/json.Encoder).Encode encoding/json/v2.MarshalEncode encoding/json/v2.marshalEncode encoding/json/v2.makeBytesArshaler$1",
       "path": [
         {
           "name": "github.com/git-pkgs/capcheck/internal/report.JSON",
@@ -4407,35 +5186,31 @@
           "package": "encoding/json"
         },
         {
-          "name": "(*encoding/json.encodeState).marshal",
+          "name": "encoding/json/v2.MarshalEncode",
           "site": {
-            "filename": "stream.go",
-            "line": "212",
-            "column": "18"
+            "filename": "v2_stream.go",
+            "line": "143",
+            "column": "32"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(*encoding/json.encodeState).reflectValue",
+          "name": "encoding/json/v2.marshalEncode",
           "site": {
-            "filename": "encode.go",
-            "line": "343",
-            "column": "16"
+            "filename": "arshal.go",
+            "line": "220",
+            "column": "21"
           },
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         },
         {
-          "name": "(encoding/json.floatEncoder).encode$bound",
+          "name": "encoding/json/v2.makeBytesArshaler$1",
           "site": {
-            "filename": "encode.go",
-            "line": "367",
-            "column": "17"
+            "filename": "arshal.go",
+            "line": "248",
+            "column": "19"
           },
-          "package": "encoding/json"
-        },
-        {
-          "name": "(encoding/json.floatEncoder).encode",
-          "package": "encoding/json"
+          "package": "encoding/json/v2"
         }
       ],
       "packageDir": "github.com/git-pkgs/capcheck/internal/report",
@@ -4491,7 +5266,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -4500,7 +5275,7 @@
           "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "site": {
             "filename": "app.go",
-            "line": "164",
+            "line": "174",
             "column": "26"
           },
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
@@ -4586,7 +5361,7 @@
           "name": "github.com/git-pkgs/capcheck/cmd/capcheck/app.runCheck",
           "site": {
             "filename": "app.go",
-            "line": "83",
+            "line": "93",
             "column": "19"
           },
           "package": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
@@ -4595,7 +5370,7 @@
           "name": "github.com/git-pkgs/capcheck/internal/analyse.Run",
           "site": {
             "filename": "app.go",
-            "line": "164",
+            "line": "174",
             "column": "26"
           },
           "package": "github.com/git-pkgs/capcheck/internal/analyse"
@@ -4752,7 +5527,7 @@
     },
     {
       "path": "github.com/google/capslock",
-      "version": "v0.3.1"
+      "version": "v0.3.3"
     },
     {
       "path": "github.com/mattn/go-colorable",
@@ -4772,23 +5547,23 @@
     },
     {
       "path": "golang.org/x/mod",
-      "version": "v0.34.0"
+      "version": "v0.41.0"
     },
     {
       "path": "golang.org/x/sync",
-      "version": "v0.20.0"
+      "version": "v0.23.0"
     },
     {
       "path": "golang.org/x/sys",
-      "version": "v0.42.0"
+      "version": "v0.48.0"
     },
     {
       "path": "golang.org/x/tools",
-      "version": "v0.43.0"
+      "version": "v0.50.0"
     },
     {
       "path": "google.golang.org/protobuf",
-      "version": "v1.36.11"
+      "version": "v1.36.12"
     }
   ],
   "packageInfo": [
@@ -4803,6 +5578,9 @@
     },
     {
       "path": "github.com/git-pkgs/capcheck/cmd/capcheck/app"
+    },
+    {
+      "path": "github.com/git-pkgs/capcheck/internal/action"
     },
     {
       "path": "github.com/git-pkgs/capcheck/internal/analyse"
@@ -5225,7 +6003,10 @@
       "path": "golang.org/x/tools/go/ssa/ssautil"
     },
     {
-      "path": "golang.org/x/tools/go/types/objectpath"
+      "path": "golang.org/x/tools/go/types/objectpath",
+      "ignoredFiles": [
+        "main.go"
+      ]
     },
     {
       "path": "golang.org/x/tools/go/types/typeutil"
@@ -5257,6 +6038,9 @@
       "ignoredFiles": [
         "invoke_notunix.go"
       ]
+    },
+    {
+      "path": "golang.org/x/tools/internal/moremaps"
     },
     {
       "path": "golang.org/x/tools/internal/packagesinternal"
