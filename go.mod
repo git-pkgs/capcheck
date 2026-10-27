@@ -5,7 +5,7 @@ go 1.27.0
 toolchain go1.27.1
 
 require (
-	github.com/google/capslock v0.3.3
+	github.com/google/capslock v0.3.4
 	github.com/spf13/cobra v1.10.2
 	golang.org/x/tools v0.52.0
 	google.golang.org/protobuf v1.36.12
